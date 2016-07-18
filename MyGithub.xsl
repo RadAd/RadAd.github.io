@@ -42,15 +42,15 @@
                             <xsl:when test="@icon">
                                 <xsl:element name="img">
                                     <xsl:attribute name="src"><xsl:value-of select="@icon"/></xsl:attribute>
-                                    <xsl:attribute name="width">32</xsl:attribute>
-                                    <xsl:attribute name="height">32</xsl:attribute>
+                                    <xsl:attribute name="width">16</xsl:attribute>
+                                    <xsl:attribute name="height">16</xsl:attribute>
                                 </xsl:element>
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:element name="img">
                                     <xsl:attribute name="src">https://github.com/favicon.ico</xsl:attribute>
-                                    <xsl:attribute name="width">32</xsl:attribute>
-                                    <xsl:attribute name="height">32</xsl:attribute>
+                                    <xsl:attribute name="width">16</xsl:attribute>
+                                    <xsl:attribute name="height">16</xsl:attribute>
                                 </xsl:element>
                             </xsl:otherwise>    
                         </xsl:choose>

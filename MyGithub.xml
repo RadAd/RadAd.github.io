@@ -3,18 +3,24 @@
 <MyGithub>
     <User name="RadAd">
         <Repo name="ConEdit" icon="https://github.com/RadAd/ConEdit/blob/master/ConEdit.ico?raw=true">
+            <Platform>Window</Platform>
         </Repo>
         <Repo name="RadConsole">
+            <Platform>Java</Platform>
             <Commit>30102013</Commit>
         </Repo>
         <Repo name="RadJoyKeyX" icon="https://github.com/RadAd/RadJoyKeyX/blob/master/RadJoyKeyX.ico?raw=true">
+            <Platform>Windows</Platform>
         </Repo>
         <Repo name="RadWsh">
+            <Platform>Windows</Platform>
         </Repo>
         <Repo name="DbgOut" icon="https://github.com/RadAd/DbgOut/blob/master/bug.ico?raw=true">
+            <Platform>Windows</Platform>
             <Commit>v1.1</Commit>
         </Repo>
         <Repo name="Rainbow" icon="https://github.com/RadAd/Rainbow/blob/master/rainbow.ico?raw=true">
+            <Platform>Windows</Platform>
         </Repo>
     </User>
 </MyGithub>

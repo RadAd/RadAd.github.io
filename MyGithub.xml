@@ -3,7 +3,7 @@
 <MyGithub>
     <User name="RadAd">
         <Repo name="ConEdit" icon="https://github.com/RadAd/ConEdit/blob/master/ConEdit.ico?raw=true">
-            <Platform>Window</Platform>
+            <Platform>Windows</Platform>
         </Repo>
         <Repo name="RadConsole">
             <Platform>Java</Platform>

@@ -2,16 +2,16 @@
 <?xml-stylesheet type="text/xsl" href="MyGithub.xsl"?>
 <MyGithub>
     <User name="RadAd">
-        <Repo name="ConEdit">
+        <Repo name="ConEdit" icon="https://github.com/RadAd/ConEdit/blob/master/ConEdit.ico?raw=true">
         </Repo>
         <Repo name="RadConsole">
             <Commit>30102013</Commit>
         </Repo>
-        <Repo name="RadJoyX">
+        <Repo name="RadJoyKeyX" icon="https://github.com/RadAd/RadJoyKeyX/blob/master/RadJoyKeyX.ico?raw=true">
         </Repo>
         <Repo name="RadWsh">
         </Repo>
-        <Repo name="DbgOut">
+        <Repo name="DbgOut" icon="https://github.com/RadAd/DbgOut/blob/master/bug.ico?raw=true">
             <Commit>v1.1</Commit>
         </Repo>
         <Repo name="Rainbow" icon="https://github.com/RadAd/Rainbow/blob/master/rainbow.ico?raw=true">

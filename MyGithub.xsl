@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" encoding="UTF-8" omit-xml-declaration="yes"/>
 
-	<xsl:template match="/">
+    <xsl:template match="/">
         <html>
 
         <head>
@@ -15,7 +15,7 @@
         </body>
 
         </html>
-	</xsl:template>
+    </xsl:template>
     
     <xsl:template match="User">
         <xsl:element name="h2">
@@ -38,6 +38,18 @@
                     <xsl:element name="a">
                         <xsl:attribute name="href">https://github.com/<xsl:value-of select="$p"/></xsl:attribute>
                         <xsl:attribute name="target">_blank</xsl:attribute>
+                        <xsl:choose>
+                            <xsl:when test="@icon">
+                                <xsl:element name="img">
+                                    <xsl:attribute name="src"><xsl:value-of select="@icon"/></xsl:attribute>
+                                </xsl:element>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:element name="img">
+                                    <xsl:attribute name="src">https://github.com/favicon.ico</xsl:attribute>
+                                </xsl:element>
+                            </xsl:otherwise>    
+                        </xsl:choose>
                         <xsl:value-of select="@name"/>
                     </xsl:element>
                 </xsl:element>

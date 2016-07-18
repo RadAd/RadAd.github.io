@@ -26,7 +26,7 @@
         </xsl:element>
         <xsl:element name="table">
             <xsl:apply-templates select="*"/>
-        </table>
+        </xsl:element>
     </xsl:template>
     
     <xsl:template match="Repo">

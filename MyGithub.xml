@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MyGithub.xsl"?>
+<MyGithub>
+    <User name="RadAd">
+        <Repo name="ConEdit">
+        </Repo>
+        <Repo name="RadConsole">
+            <Commit>30102013</Commit>
+        </Repo>
+        <Repo name="RadJoyX">
+        </Repo>
+        <Repo name="RadWsh">
+        </Repo>
+        <Repo name="DbgOut">
+            <Commit>v1.1</Commit>
+        </Repo>
+        <Repo name="Rainbow" icon="https://github.com/RadAd/Rainbow/blob/master/rainbow.ico?raw=true">
+        </Repo>
+    </User>
+</MyGithub>

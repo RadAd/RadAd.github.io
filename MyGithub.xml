@@ -34,7 +34,7 @@
         </Repo>
         <Repo name="RadUnread" icon="https://github.com/RadAd/RadUnread/raw/master/res/drawable/icon.png">
             <Platform>Android</Platform>
-            <Commit>v2</Commit>
+            <Commit>v4</Commit>
         </Repo>
         <Repo name="OpenAsText" icon="https://github.com/RadAd/OpenAsText/raw/master/res/drawable/text.png">
             <Platform>Android</Platform>

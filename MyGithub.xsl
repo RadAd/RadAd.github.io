@@ -90,7 +90,7 @@
     <xsl:template match="Commit">
         <xsl:variable name="p"><xsl:value-of select="../../@name"/>/<xsl:value-of select="../@name"/></xsl:variable>
         <xsl:element name="a">
-            <xsl:attribute name="href">https://github.com/<xsl:value-of select="$p"/>/compare/<xsl:value-of select="Commit"/>...master</xsl:attribute>
+            <xsl:attribute name="href">https://github.com/<xsl:value-of select="$p"/>/compare/<xsl:value-of select="."/>...master</xsl:attribute>
             <xsl:attribute name="target">_blank</xsl:attribute>
             <xsl:element name="img">
                 <xsl:attribute name="src">https://img.shields.io/github/commits-since/<xsl:value-of select="$p"/>/<xsl:value-of select="."/>.svg?maxAge=2592000</xsl:attribute>

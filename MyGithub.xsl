@@ -81,6 +81,9 @@
             <xsl:element name="td">
                 <xsl:apply-templates select="Commit"/>
             </xsl:element>
+            <xsl:element name="td">
+                <xsl:apply-templates select="Build"/>
+            </xsl:element>
         </xsl:element>
     </xsl:template>
     
@@ -90,7 +93,7 @@
                 <xsl:attribute name="href">https://github.com/<xsl:value-of select="$p"/>/compare/<xsl:value-of select="Commit"/>...master</xsl:attribute>
                 <xsl:attribute name="target">_blank</xsl:attribute>
                 <xsl:element name="img">
-                    <xsl:attribute name="src">https://img.shields.io/github/commits-since/<xsl:value-of select="$p"/>/<xsl:value-of select="Commit"/>.svg?maxAge=2592000</xsl:attribute>
+                    <xsl:attribute name="src">https://img.shields.io/github/commits-since/<xsl:value-of select="$p"/>/<xsl:value-of select="."/>.svg?maxAge=2592000</xsl:attribute>
                 </xsl:element>
             </xsl:element>
     </xsl:template>

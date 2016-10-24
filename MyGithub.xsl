@@ -88,7 +88,7 @@
     </xsl:template>
     
     <xsl:template match="Commit">
-        <xsl:variable name="p"><xsl:value-of select="../@name"/>/<xsl:value-of select="@name"/></xsl:variable>
+        <xsl:variable name="p"><xsl:value-of select="../../@name"/>/<xsl:value-of select="../@name"/></xsl:variable>
             <xsl:element name="a">
                 <xsl:attribute name="href">https://github.com/<xsl:value-of select="$p"/>/compare/<xsl:value-of select="Commit"/>...master</xsl:attribute>
                 <xsl:attribute name="target">_blank</xsl:attribute>
@@ -99,7 +99,7 @@
     </xsl:template>
     
     <xsl:template match="Build">
-        <xsl:variable name="p"><xsl:value-of select="../@name"/>/<xsl:value-of select="@name"/></xsl:variable>
+        <xsl:variable name="p"><xsl:value-of select="../../@name"/>/<xsl:value-of select="../@name"/></xsl:variable>
             <xsl:element name="a">
                 <xsl:attribute name="href">https://ci.appveyor.com/project/<xsl:value-of select="$p"/></xsl:attribute>
                 <xsl:attribute name="target">_blank</xsl:attribute>

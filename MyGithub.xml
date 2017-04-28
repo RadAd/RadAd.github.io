@@ -26,6 +26,7 @@
         <Repo name="RadConsole">
             <Platform>Java</Platform>
             <Commit>30102013</Commit>
+            <Build id="5811348c133af40e00ffdfba">shippable</Build>
         </Repo>
         <Repo name="RadNotepad" icon="https://github.com/RadAd/RadNotepad/raw/master/res/drawable/ic_launcher.png">
             <Platform>Android</Platform>

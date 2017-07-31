@@ -2,6 +2,22 @@
 <?xml-stylesheet type="text/xsl" href="MyGithub.xsl"?>
 <MyGithub>
     <User name="RadAd">
+        <Repo name="MiniUtils">
+            <Platform>Windows</Platform>
+            <Build>appveyor</Build>
+        </Repo>
+        <Repo name="RadGui" icon="https://github.com/RadAd/RadGui/blob/master/RadGui.ico?raw=true">
+            <Platform>Windows</Platform>
+            <Build>appveyor</Build>
+        </Repo>
+        <Repo name="Notepad" icon="https://github.com/RadAd/Notepad/blob/master/Notepad.ico?raw=true">
+            <Platform>Windows</Platform>
+            <Build>appveyor</Build>
+        </Repo>
+        <Repo name="CmdFileUtils">
+            <Platform>Windows</Platform>
+            <Build>appveyor</Build>
+        </Repo>
         <Repo name="ConEdit" icon="https://github.com/RadAd/ConEdit/blob/master/ConEdit.ico?raw=true">
             <Platform>Windows</Platform>
             <Commit>v1.0</Commit>
@@ -10,6 +26,10 @@
         <Repo name="RadJoyKeyX" icon="https://github.com/RadAd/RadJoyKeyX/blob/master/RadJoyKeyX.ico?raw=true">
             <Platform>Windows</Platform>
             <Commit>v1</Commit>
+            <Build>appveyor</Build>
+        </Repo>
+        <Repo name="RadJoyKey" icon="https://github.com/RadAd/RadJoyKey/blob/master/RadJoyKey.ico?raw=true">
+            <Platform>Windows</Platform>
             <Build>appveyor</Build>
         </Repo>
         <Repo name="RadWsh">

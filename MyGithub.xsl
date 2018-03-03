@@ -23,7 +23,11 @@
     
     <xsl:template match="Group">
         <xsl:element name="h2">
-            <xsl:value-of select="@name"/>
+            <xsl:element name="a">
+                <xsl:attribute name="href">https://github.com/RadAd?tab=repositories&amp;q=<xsl:value-of select="@name"/></xsl:attribute>
+                <xsl:attribute name="target">_blank</xsl:attribute>
+                <xsl:value-of select="@name"/>
+            </xsl:element>
         </xsl:element>
         <xsl:element name="table">
             <xsl:apply-templates select="*"/>

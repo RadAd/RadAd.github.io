@@ -104,9 +104,9 @@
     </xsl:template>
     
     <xsl:template match="Build[text()='shippable']">
-        <xsl:variable name="p"><xsl:value-of select="../../@name"/>/<xsl:value-of select="../@name"/></xsl:variable>
+        <xsl:variable name="p"><xsl:value-of select="../../../@name"/>/<xsl:value-of select="../@name"/></xsl:variable>
         <xsl:element name="a">
-            <xsl:attribute name="href">https://app.shippable.com/github/<xsl:value-of select="$p"/>/status/dashboard</xsl:attribute>
+            <xsl:attribute name="href">https://app.shippable.com/github/<xsl:value-of select="$p"/></xsl:attribute>
             <xsl:attribute name="target">_blank</xsl:attribute>
             <xsl:element name="img">
                 <xsl:attribute name="src">https://img.shields.io/shippable/<xsl:value-of select="@id"/>.svg?maxAge=2592000</xsl:attribute>

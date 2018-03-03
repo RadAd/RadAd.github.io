@@ -2,75 +2,46 @@
 <?xml-stylesheet type="text/xsl" href="MyGithub.xsl"?>
 <MyGithub>
     <User name="RadAd">
+    <Group name="Windows">
         <Repo name="MiniUtils">
-            <Platform>Windows</Platform>
             <Build>appveyor</Build>
         </Repo>
         <Repo name="RadGui" icon="https://github.com/RadAd/RadGui/blob/master/RadGui.ico?raw=true">
-            <Platform>Windows</Platform>
             <Build>appveyor</Build>
         </Repo>
         <Repo name="Notepad" icon="https://github.com/RadAd/Notepad/blob/master/Notepad.ico?raw=true">
-            <Platform>Windows</Platform>
             <Build>appveyor</Build>
         </Repo>
         <Repo name="CmdFileUtils">
-            <Platform>Windows</Platform>
             <Build>appveyor</Build>
         </Repo>
         <Repo name="ConEdit" icon="https://github.com/RadAd/ConEdit/blob/master/ConEdit.ico?raw=true">
-            <Platform>Windows</Platform>
-            <Commit>v1.0</Commit>
             <Build>appveyor</Build>
         </Repo>
         <Repo name="RadJoyKeyX" icon="https://github.com/RadAd/RadJoyKeyX/blob/master/RadJoyKeyX.ico?raw=true">
-            <Platform>Windows</Platform>
-            <Commit>v1</Commit>
             <Build>appveyor</Build>
         </Repo>
         <Repo name="RadJoyKey" icon="https://github.com/RadAd/RadJoyKey/blob/master/RadJoyKey.ico?raw=true">
-            <Platform>Windows</Platform>
             <Build>appveyor</Build>
         </Repo>
-        <Repo name="RadWsh">
-            <Platform>Windows</Platform>
-        </Repo>
+        <Repo name="RadWsh"/>
         <Repo name="DbgOut" icon="https://github.com/RadAd/DbgOut/blob/master/bug.ico?raw=true">
-            <Platform>Windows</Platform>
-            <Commit>v1.1</Commit>
             <Build>appveyor</Build>
         </Repo>
-        <Repo name="Rainbow" icon="https://github.com/RadAd/Rainbow/blob/master/rainbow.ico?raw=true">
-            <Platform>Windows</Platform>
-        </Repo>
+        <Repo name="Rainbow" icon="https://github.com/RadAd/Rainbow/blob/master/rainbow.ico?raw=true"/>
+    </Group>
+    <Group name="Java">
         <Repo name="RadConsole">
-            <Platform>Java</Platform>
-            <Commit>30102013</Commit>
             <Build id="5811348c133af40e00ffdfba">shippable</Build>
         </Repo>
-        <Repo name="RadNotepad" icon="https://github.com/RadAd/RadNotepad/raw/master/res/drawable/ic_launcher.png">
-            <Platform>Android</Platform>
-            <Commit>v9</Commit>
-        </Repo>
-        <Repo name="AppDrawer" icon="https://github.com/RadAd/AppDrawer/raw/master/res/drawable/app_drawer_icon.png">
-            <Platform>Android</Platform>
-            <Commit>v6</Commit>
-        </Repo>
-        <Repo name="RadUnread" icon="https://github.com/RadAd/RadUnread/raw/master/res/drawable/icon.png">
-            <Platform>Android</Platform>
-            <Commit>v4</Commit>
-        </Repo>
-        <Repo name="OpenAsText" icon="https://github.com/RadAd/OpenAsText/raw/master/res/drawable/text.png">
-            <Platform>Android</Platform>
-            <Commit>v3</Commit>
-        </Repo>
-        <Repo name="WebIntents" icon="https://github.com/RadAd/WebIntents/raw/master/res/drawable/web_intents_icon.png">
-            <Platform>Android</Platform>
-            <Commit>v2</Commit>
-        </Repo>
-        <Repo name="Clock" icon="https://github.com/RadAd/Clock/raw/master/res/drawable/clock.png">
-            <Platform>Android</Platform>
-            <Commit>v3</Commit>
-        </Repo>
+    </Group>
+    <Group name="Android">
+        <Repo name="RadNotepad" icon="https://github.com/RadAd/RadNotepad/raw/master/res/drawable/ic_launcher.png"/>
+        <Repo name="AppDrawer" icon="https://github.com/RadAd/AppDrawer/raw/master/res/drawable/app_drawer_icon.png"/>
+        <Repo name="RadUnread" icon="https://github.com/RadAd/RadUnread/raw/master/res/drawable/icon.png"/>
+        <Repo name="OpenAsText" icon="https://github.com/RadAd/OpenAsText/raw/master/res/drawable/text.png"/>
+        <Repo name="WebIntents" icon="https://github.com/RadAd/WebIntents/raw/master/res/drawable/web_intents_icon.png"/>
+        <Repo name="Clock" icon="https://github.com/RadAd/Clock/raw/master/res/drawable/clock.png"/>
+    </Group>
     </User>
 </MyGithub>

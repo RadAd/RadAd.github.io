@@ -6,6 +6,9 @@
         <Repo name="RadNotepadMFC" icon="https://github.com/RadAd/RadNotepadMFC/blob/master/res/RadNotepad.ico?raw=true">
             <Build>appveyor</Build>
         </Repo>
+        <Repo name="RadWin32Samples">
+            <Build>appveyor</Build>
+        </Repo>
         <Repo name="MiniUtils">
             <Build>appveyor</Build>
         </Repo>

@@ -12,7 +12,7 @@
         <Repo name="MiniUtils">
             <Build>appveyor</Build>
         </Repo>
-        <Repo name="RadImgView" icon="https://github.com/RadAd/RadImgViewer/blob/master/RadImgViewer/res/imgviewer.ico?raw=true">
+        <Repo name="RadImgViewer" icon="https://github.com/RadAd/RadImgViewer/blob/master/RadImgViewer/res/imgviewer.ico?raw=true">
             <Build>appveyor</Build>
         </Repo>
         <Repo name="RadGui" icon="https://github.com/RadAd/RadGui/blob/master/RadGui.ico?raw=true">

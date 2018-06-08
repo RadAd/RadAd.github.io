@@ -12,6 +12,9 @@
         <Repo name="MiniUtils">
             <Build>appveyor</Build>
         </Repo>
+        <Repo name="RadImgiew" icon="https://github.com/RadAd/RadImgViewer/blob/master/RadImgViewer/res/imgviewer.ico?raw=true">
+            <Build>appveyor</Build>
+        </Repo>
         <Repo name="RadGui" icon="https://github.com/RadAd/RadGui/blob/master/RadGui.ico?raw=true">
             <Build>appveyor</Build>
         </Repo>
@@ -27,9 +30,7 @@
         <Repo name="RadJoyKeyX" icon="https://github.com/RadAd/RadJoyKeyX/blob/master/RadJoyKeyX.ico?raw=true">
             <Build>appveyor</Build>
         </Repo>
-        <Repo name="RadJoyKey" icon="https://github.com/RadAd/RadJoyKey/blob/master/RadJoyKey.ico?raw=true">
-            <Build>appveyor</Build>
-        </Repo>
+        <Repo name="RadJoyKey"/>
         <Repo name="RadWsh"/>
         <Repo name="DbgOut" icon="https://github.com/RadAd/DbgOut/blob/master/bug.ico?raw=true">
             <Build>appveyor</Build>

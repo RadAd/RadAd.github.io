@@ -35,7 +35,9 @@
         <Repo name="DbgOut" icon="https://github.com/RadAd/DbgOut/blob/master/bug.ico?raw=true">
             <Build>appveyor</Build>
         </Repo>
-        <Repo name="Rainbow" icon="https://github.com/RadAd/Rainbow/blob/master/rainbow.ico?raw=true"/>
+        <Repo name="Rainbow" icon="https://github.com/RadAd/Rainbow/blob/master/rainbow.ico?raw=true">
+            <Build>appveyor</Build>
+        </Repo>
     </Group>
     <Group name="Java">
         <Repo name="RadConsole">

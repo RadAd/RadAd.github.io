@@ -65,7 +65,7 @@
             </xsl:element>
             <xsl:element name="td">
                 <xsl:element name="img">
-                    <xsl:attribute name="src">https://img.shields.io/github/downloads/<xsl:value-of select="$p"/>/total.svg?maxAge=2592000</xsl:attribute>
+                    <xsl:attribute name="src">https://img.shields.io/github/downloads/<xsl:value-of select="$p"/>/total.svg?maxAge=2592000&amp;label=</xsl:attribute>
                 </xsl:element>
             </xsl:element>
             <xsl:element name="td">
@@ -73,7 +73,7 @@
                     <xsl:attribute name="href">https://github.com/<xsl:value-of select="$p"/>/releases/latest</xsl:attribute>
                     <xsl:attribute name="target">_blank</xsl:attribute>
                     <xsl:element name="img">
-                        <xsl:attribute name="src">https://img.shields.io/github/release/<xsl:value-of select="$p"/>.svg?maxAge=2592000</xsl:attribute>
+                        <xsl:attribute name="src">https://img.shields.io/github/release/<xsl:value-of select="$p"/>.svg?maxAge=2592000&amp;label=</xsl:attribute>
                     </xsl:element>
                 </xsl:element>
             </xsl:element>
@@ -82,7 +82,7 @@
                     <xsl:attribute name="href">https://github.com/<xsl:value-of select="$p"/>/commits/master</xsl:attribute>
                     <xsl:attribute name="target">_blank</xsl:attribute>
                     <xsl:element name="img">
-                        <xsl:attribute name="src">https://img.shields.io/github/commits-since/<xsl:value-of select="$p"/>/latest.svg?maxAge=2592000</xsl:attribute>
+                        <xsl:attribute name="src">https://img.shields.io/github/commits-since/<xsl:value-of select="$p"/>/latest.svg?maxAge=2592000&amp;label=</xsl:attribute>
                     </xsl:element>
                 </xsl:element>
             </xsl:element>
@@ -98,7 +98,7 @@
             <xsl:attribute name="href">https://ci.appveyor.com/project/<xsl:value-of select="$p"/></xsl:attribute>
             <xsl:attribute name="target">_blank</xsl:attribute>
             <xsl:element name="img">
-                <xsl:attribute name="src">https://img.shields.io/appveyor/ci/<xsl:value-of select="$p"/>.svg?maxAge=2592000</xsl:attribute>
+                <xsl:attribute name="src">https://img.shields.io/appveyor/ci/<xsl:value-of select="$p"/>.svg?maxAge=2592000&amp;label=</xsl:attribute>
             </xsl:element>
         </xsl:element>
     </xsl:template>
@@ -109,7 +109,7 @@
             <xsl:attribute name="href">https://app.shippable.com/github/<xsl:value-of select="$p"/></xsl:attribute>
             <xsl:attribute name="target">_blank</xsl:attribute>
             <xsl:element name="img">
-                <xsl:attribute name="src">https://img.shields.io/shippable/<xsl:value-of select="@id"/>.svg?maxAge=2592000</xsl:attribute>
+                <xsl:attribute name="src">https://img.shields.io/shippable/<xsl:value-of select="@id"/>.svg?maxAge=2592000&amp;label=</xsl:attribute>
             </xsl:element>
         </xsl:element>
     </xsl:template>

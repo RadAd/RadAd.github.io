@@ -3,10 +3,12 @@
 <MyGithub>
     <User name="RadAd">
         <Repo name="RadNotepadMFC" icon="res/RadNotepad.ico"/>
+        <Repo name="RadAudioPlayer" icon="res/Music.ico"/>
         <Repo name="RadImgViewer" icon="RadImgViewer/res/imgviewer.ico"/>
         <Repo name="RadGui" icon="RadGui.ico"/>
         <Repo name="Notepad" icon="Notepad.ico" releases="false"/>
         <Repo name="ConEdit" icon="ConEdit.ico" releases="true"/>
+        <Repo name="RadJoyKey" icon="RadJoyKey.ico" releases="false"/>
         <Repo name="RadJoyKeyX" icon="RadJoyKeyX.ico" releases="true"/>
         <Repo name="DbgOut" icon="bug.ico" releases="true"/>
         <Repo name="Rainbow" icon="rainbow.ico"/>

@@ -79,6 +79,7 @@
             </xsl:element>
             <xsl:element name="td">
                 <xsl:element name="img">
+                    <xsl:attribute name="title">Downloads</xsl:attribute>
                     <xsl:choose>
                         <xsl:when test="$releases != 'true'">
                             <xsl:attribute name="src">https://img.shields.io/badge/----red.svg</xsl:attribute>
@@ -94,6 +95,7 @@
                     <xsl:attribute name="href">https://github.com/<xsl:value-of select="$p"/>/releases/latest</xsl:attribute>
                     <xsl:attribute name="target">_blank</xsl:attribute>
                     <xsl:element name="img">
+                        <xsl:attribute name="title">Latest Release</xsl:attribute>
                         <xsl:choose>
                             <xsl:when test="$releases != 'true'">
                                 <xsl:attribute name="src">https://img.shields.io/badge/----red.svg</xsl:attribute>
@@ -110,6 +112,7 @@
                     <xsl:attribute name="href">https://github.com/<xsl:value-of select="$p"/>/commits/master</xsl:attribute>
                     <xsl:attribute name="target">_blank</xsl:attribute>
                     <xsl:element name="img">
+                        <xsl:attribute name="title">Commits since Latest Release</xsl:attribute>
                         <xsl:choose>
                             <xsl:when test="$releases != 'true'">
                                 <xsl:attribute name="src">https://img.shields.io/badge/----red.svg</xsl:attribute>
@@ -123,6 +126,9 @@
             </xsl:element>
             <xsl:element name="td">
                 <xsl:apply-templates select="topics/topic"/>
+            </xsl:element>
+            <xsl:element name="td">
+                <xsl:value-of select="description"/>
             </xsl:element>
         </xsl:element>
     </xsl:template>

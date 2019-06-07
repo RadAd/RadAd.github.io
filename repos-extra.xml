@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MyGithub.xsl"?>
+<MyGithub>
+    <User name="RadAd">
+        <Repo name="RadNotepadMFC" icon="res/RadNotepad.ico"/>
+        <Repo name="RadImgViewer" icon="RadImgViewer/res/imgviewer.ico"/>
+        <Repo name="RadGui" icon="RadGui.ico"/>
+        <Repo name="Notepad" icon="Notepad.ico" releases="false"/>
+        <Repo name="ConEdit" icon="ConEdit.ico" releases="true"/>
+        <Repo name="RadJoyKeyX" icon="RadJoyKeyX.ico" releases="true"/>
+        <Repo name="DbgOut" icon="bug.ico" releases="true"/>
+        <Repo name="Rainbow" icon="rainbow.ico"/>
+        <Repo name="RadConsole" shippable="5811348c133af40e00ffdfba" releases="true"/>
+        <Repo name="RadNotepad" icon="res/drawable/ic_launcher.png" releases="true"/>
+        <Repo name="AppDrawer" icon="res/drawable/app_drawer_icon.png" releases="true"/>
+        <Repo name="RadUnread" icon="res/drawable/icon.png" releases="true"/>
+        <Repo name="OpenAsText" icon="res/drawable/text.png" releases="true"/>
+        <Repo name="WebIntents" icon="res/drawable/web_intents_icon.png" releases="true"/>
+        <Repo name="Clock" icon="res/drawable/clock.png" releases="true"/>
+    </User>
+</MyGithub>

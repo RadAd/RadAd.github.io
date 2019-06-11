@@ -5,8 +5,8 @@
         <Repo name="RadNotepadMFC" icon="res/RadNotepad.ico"/>
         <Repo name="RadAudioPlayer" icon="res/Music.ico"/>
         <Repo name="RadImgViewer" icon="RadImgViewer/res/imgviewer.ico"/>
-        <Repo name="RadGui" icon="RadGui.ico"/>
-        <Repo name="Notepad" icon="Notepad.ico" releases="false"/>
+        <Repo name="RadGui" icon="RadGui.ico" releases="true"/>
+        <Repo name="Notepad" icon="Notepad.ico" releases="true"/>
         <Repo name="CmdFileUtils" releases="true"/>
         <Repo name="ConEdit" icon="ConEdit.ico" releases="true"/>
         <Repo name="RadJoyKey" icon="RadJoyKey.ico" releases="false"/>

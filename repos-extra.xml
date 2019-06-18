@@ -2,8 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="MyGithub.xsl"?>
 <MyGithub>
     <User name="RadAd">
-        <Repo name="RadNotepadMFC" icon="res/RadNotepad.ico"/>
-        <Repo name="RadAudioPlayer" icon="res/Music.ico"/>
+        <Repo name="RadNotepadMFC" icon="res/RadNotepad.ico" releases="true"/>
+        <Repo name="RadAudioPlayer" icon="res/Music.ico" releases="true"/>
         <Repo name="RadImgViewer" icon="RadImgViewer/res/imgviewer.ico" releases="true"/>
         <Repo name="RadGui" icon="RadGui.ico" releases="true"/>
         <Repo name="Notepad" icon="Notepad.ico" releases="true"/>

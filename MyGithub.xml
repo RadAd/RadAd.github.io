@@ -43,6 +43,9 @@
         <Repo name="RadConsole">
             <Build id="5cf8c0a7d964990007c3ab9c">shippable</Build>
         </Repo>
+        <Repo name="Radboy">
+            <Build id="5e2636f4fd3639000723401f">shippable</Build>
+        </Repo>
     </Group>
     <Group name="Android">
         <Repo name="RadNotepad" icon="https://github.com/RadAd/RadNotepad/raw/master/res/drawable/ic_launcher.png"/>

@@ -1060,8 +1060,8 @@
     "releases_url": "https://api.github.com/repos/RadAd/RadAd.github.io/releases{/id}",
     "deployments_url": "https://api.github.com/repos/RadAd/RadAd.github.io/deployments",
     "created_at": "2016-07-18T04:20:25Z",
-    "updated_at": "2019-06-18T00:47:34Z",
-    "pushed_at": "2019-06-18T00:47:32Z",
+    "updated_at": "2020-01-20T23:42:44Z",
+    "pushed_at": "2020-01-20T23:42:42Z",
     "git_url": "git://github.com/RadAd/RadAd.github.io.git",
     "ssh_url": "git@github.com:RadAd/RadAd.github.io.git",
     "clone_url": "https://github.com/RadAd/RadAd.github.io.git",
@@ -1257,8 +1257,8 @@
     "releases_url": "https://api.github.com/repos/RadAd/Radboy/releases{/id}",
     "deployments_url": "https://api.github.com/repos/RadAd/Radboy/deployments",
     "created_at": "2020-01-20T23:02:33Z",
-    "updated_at": "2020-01-20T23:36:31Z",
-    "pushed_at": "2020-01-20T23:18:33Z",
+    "updated_at": "2020-01-20T23:55:13Z",
+    "pushed_at": "2020-01-20T23:47:58Z",
     "git_url": "git://github.com/RadAd/Radboy.git",
     "ssh_url": "git@github.com:RadAd/Radboy.git",
     "clone_url": "https://github.com/RadAd/Radboy.git",
@@ -1280,7 +1280,8 @@
     "open_issues_count": 0,
     "license": null,
     "topics": [
-      "java"
+      "java",
+      "shippable"
     ],
     "forks": 0,
     "open_issues": 0,
@@ -1451,7 +1452,7 @@
     "releases_url": "https://api.github.com/repos/RadAd/RadConsole/releases{/id}",
     "deployments_url": "https://api.github.com/repos/RadAd/RadConsole/deployments",
     "created_at": "2012-10-11T09:56:40Z",
-    "updated_at": "2020-01-20T23:33:50Z",
+    "updated_at": "2020-01-20T23:55:22Z",
     "pushed_at": "2020-01-20T23:33:48Z",
     "git_url": "git://github.com/RadAd/RadConsole.git",
     "ssh_url": "git@github.com:RadAd/RadConsole.git",
@@ -1475,7 +1476,8 @@
     "license": null,
     "topics": [
       "console",
-      "java"
+      "java",
+      "shippable"
     ],
     "forks": 2,
     "open_issues": 0,

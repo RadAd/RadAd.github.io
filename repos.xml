@@ -1059,8 +1059,8 @@
     <releases_url>https://api.github.com/repos/RadAd/RadAd.github.io/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadAd.github.io/deployments</deployments_url>
     <created_at>2016-07-18T04:20:25Z</created_at>
-    <updated_at>2019-06-18T00:47:34Z</updated_at>
-    <pushed_at>2019-06-18T00:47:32Z</pushed_at>
+    <updated_at>2020-01-20T23:42:44Z</updated_at>
+    <pushed_at>2020-01-20T23:42:42Z</pushed_at>
     <git_url>git://github.com/RadAd/RadAd.github.io.git</git_url>
     <ssh_url>git@github.com:RadAd/RadAd.github.io.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadAd.github.io.git</clone_url>
@@ -1255,8 +1255,8 @@
     <releases_url>https://api.github.com/repos/RadAd/Radboy/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/Radboy/deployments</deployments_url>
     <created_at>2020-01-20T23:02:33Z</created_at>
-    <updated_at>2020-01-20T23:36:31Z</updated_at>
-    <pushed_at>2020-01-20T23:18:33Z</pushed_at>
+    <updated_at>2020-01-20T23:55:13Z</updated_at>
+    <pushed_at>2020-01-20T23:47:58Z</pushed_at>
     <git_url>git://github.com/RadAd/Radboy.git</git_url>
     <ssh_url>git@github.com:RadAd/Radboy.git</ssh_url>
     <clone_url>https://github.com/RadAd/Radboy.git</clone_url>
@@ -1279,6 +1279,7 @@
     <license/>
     <topics>
       <topic>java</topic>
+      <topic>shippable</topic>
     </topics>
     <forks>0</forks>
     <open_issues>0</open_issues>
@@ -1449,7 +1450,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadConsole/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadConsole/deployments</deployments_url>
     <created_at>2012-10-11T09:56:40Z</created_at>
-    <updated_at>2020-01-20T23:33:50Z</updated_at>
+    <updated_at>2020-01-20T23:55:22Z</updated_at>
     <pushed_at>2020-01-20T23:33:48Z</pushed_at>
     <git_url>git://github.com/RadAd/RadConsole.git</git_url>
     <ssh_url>git@github.com:RadAd/RadConsole.git</ssh_url>
@@ -1474,6 +1475,7 @@
     <topics>
       <topic>console</topic>
       <topic>java</topic>
+      <topic>shippable</topic>
     </topics>
     <forks>2</forks>
     <open_issues>0</open_issues>

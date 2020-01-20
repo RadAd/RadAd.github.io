@@ -41,7 +41,7 @@
     </Group>
     <Group name="Java">
         <Repo name="RadConsole">
-            <Build id="5811348c133af40e00ffdfba">shippable</Build>
+            <Build id="5cf8c0a7d964990007c3ab9c">shippable</Build>
         </Repo>
     </Group>
     <Group name="Android">

@@ -67,7 +67,7 @@
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:element name="img">
-                                    <xsl:attribute name="src">https://github.com/favicon.ico</xsl:attribute>
+                                    <xsl:attribute name="src">https://github.githubassets.com/favicons/favicon.png</xsl:attribute>
                                     <xsl:attribute name="width">16</xsl:attribute>
                                     <xsl:attribute name="height">16</xsl:attribute>
                                 </xsl:element>

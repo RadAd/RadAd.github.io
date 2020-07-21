@@ -458,14 +458,14 @@
     <releases_url>https://api.github.com/repos/RadAd/ConEdit/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/ConEdit/deployments</deployments_url>
     <created_at>2016-07-18T00:40:43Z</created_at>
-    <updated_at>2020-06-26T00:02:20Z</updated_at>
-    <pushed_at>2018-07-06T01:41:37Z</pushed_at>
+    <updated_at>2020-07-17T00:26:38Z</updated_at>
+    <pushed_at>2020-07-17T00:26:35Z</pushed_at>
     <git_url>git://github.com/RadAd/ConEdit.git</git_url>
     <ssh_url>git@github.com:RadAd/ConEdit.git</ssh_url>
     <clone_url>https://github.com/RadAd/ConEdit.git</clone_url>
     <svn_url>https://github.com/RadAd/ConEdit</svn_url>
     <homepage></homepage>
-    <size>159</size>
+    <size>162</size>
     <stargazers_count>4</stargazers_count>
     <watchers_count>4</watchers_count>
     <language>C++</language>
@@ -857,21 +857,21 @@
     <releases_url>https://api.github.com/repos/RadAd/MiniUtils/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/MiniUtils/deployments</deployments_url>
     <created_at>2017-07-28T12:47:46Z</created_at>
-    <updated_at>2020-02-24T04:04:36Z</updated_at>
-    <pushed_at>2020-02-24T04:04:34Z</pushed_at>
+    <updated_at>2020-07-16T23:40:34Z</updated_at>
+    <pushed_at>2020-07-16T23:40:31Z</pushed_at>
     <git_url>git://github.com/RadAd/MiniUtils.git</git_url>
     <ssh_url>git@github.com:RadAd/MiniUtils.git</ssh_url>
     <clone_url>https://github.com/RadAd/MiniUtils.git</clone_url>
     <svn_url>https://github.com/RadAd/MiniUtils</svn_url>
-    <homepage/>
-    <size>47</size>
+    <homepage></homepage>
+    <size>57</size>
     <stargazers_count>1</stargazers_count>
     <watchers_count>1</watchers_count>
     <language>C++</language>
     <has_issues>true</has_issues>
-    <has_projects>true</has_projects>
+    <has_projects>false</has_projects>
     <has_downloads>true</has_downloads>
-    <has_wiki>true</has_wiki>
+    <has_wiki>false</has_wiki>
     <has_pages>false</has_pages>
     <forks_count>0</forks_count>
     <mirror_url/>
@@ -1155,14 +1155,14 @@
     <releases_url>https://api.github.com/repos/RadAd/RadAd.github.io/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadAd.github.io/deployments</deployments_url>
     <created_at>2016-07-18T04:20:25Z</created_at>
-    <updated_at>2020-06-26T03:09:20Z</updated_at>
-    <pushed_at>2020-06-26T03:09:18Z</pushed_at>
+    <updated_at>2020-06-26T05:00:43Z</updated_at>
+    <pushed_at>2020-06-26T05:00:41Z</pushed_at>
     <git_url>git://github.com/RadAd/RadAd.github.io.git</git_url>
     <ssh_url>git@github.com:RadAd/RadAd.github.io.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadAd.github.io.git</clone_url>
     <svn_url>https://github.com/RadAd/RadAd.github.io</svn_url>
     <homepage>https://RadAd.github.io</homepage>
-    <size>135</size>
+    <size>174</size>
     <stargazers_count>0</stargazers_count>
     <watchers_count>0</watchers_count>
     <language>HTML</language>
@@ -1646,7 +1646,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadGui/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadGui/deployments</deployments_url>
     <created_at>2017-07-31T00:51:45Z</created_at>
-    <updated_at>2019-09-18T22:34:23Z</updated_at>
+    <updated_at>2020-07-02T13:48:53Z</updated_at>
     <pushed_at>2019-07-30T01:13:44Z</pushed_at>
     <git_url>git://github.com/RadAd/RadGui.git</git_url>
     <ssh_url>git@github.com:RadAd/RadGui.git</ssh_url>
@@ -1654,8 +1654,8 @@
     <svn_url>https://github.com/RadAd/RadGui</svn_url>
     <homepage/>
     <size>185</size>
-    <stargazers_count>2</stargazers_count>
-    <watchers_count>2</watchers_count>
+    <stargazers_count>3</stargazers_count>
+    <watchers_count>3</watchers_count>
     <language>C++</language>
     <has_issues>true</has_issues>
     <has_projects>false</has_projects>
@@ -1676,7 +1676,7 @@
     </topics>
     <forks>0</forks>
     <open_issues>0</open_issues>
-    <watchers>2</watchers>
+    <watchers>3</watchers>
     <default_branch>master</default_branch>
   </repo>
   <repo>
@@ -1746,21 +1746,21 @@
     <releases_url>https://api.github.com/repos/RadAd/RadImgViewer/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadImgViewer/deployments</deployments_url>
     <created_at>2018-06-07T07:31:57Z</created_at>
-    <updated_at>2020-03-18T23:53:46Z</updated_at>
-    <pushed_at>2019-07-16T07:26:27Z</pushed_at>
+    <updated_at>2020-07-17T00:34:09Z</updated_at>
+    <pushed_at>2020-07-17T00:40:16Z</pushed_at>
     <git_url>git://github.com/RadAd/RadImgViewer.git</git_url>
     <ssh_url>git@github.com:RadAd/RadImgViewer.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadImgViewer.git</clone_url>
     <svn_url>https://github.com/RadAd/RadImgViewer</svn_url>
     <homepage></homepage>
-    <size>3662</size>
+    <size>7506</size>
     <stargazers_count>1</stargazers_count>
     <watchers_count>1</watchers_count>
     <language>C</language>
     <has_issues>true</has_issues>
-    <has_projects>true</has_projects>
+    <has_projects>false</has_projects>
     <has_downloads>true</has_downloads>
-    <has_wiki>true</has_wiki>
+    <has_wiki>false</has_wiki>
     <has_pages>false</has_pages>
     <forks_count>0</forks_count>
     <mirror_url/>
@@ -2044,13 +2044,13 @@
     <releases_url>https://api.github.com/repos/RadAd/RadLine/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadLine/deployments</deployments_url>
     <created_at>2019-06-06T01:07:05Z</created_at>
-    <updated_at>2020-04-24T04:09:32Z</updated_at>
+    <updated_at>2020-06-28T23:29:26Z</updated_at>
     <pushed_at>2020-04-24T04:09:30Z</pushed_at>
     <git_url>git://github.com/RadAd/RadLine.git</git_url>
     <ssh_url>git@github.com:RadAd/RadLine.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadLine.git</clone_url>
     <svn_url>https://github.com/RadAd/RadLine</svn_url>
-    <homepage/>
+    <homepage></homepage>
     <size>115</size>
     <stargazers_count>1</stargazers_count>
     <watchers_count>1</watchers_count>
@@ -2244,7 +2244,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadNotepadMFC/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadNotepadMFC/deployments</deployments_url>
     <created_at>2017-08-04T04:00:56Z</created_at>
-    <updated_at>2020-03-06T02:13:54Z</updated_at>
+    <updated_at>2020-07-20T04:56:14Z</updated_at>
     <pushed_at>2020-03-06T02:13:51Z</pushed_at>
     <git_url>git://github.com/RadAd/RadNotepadMFC.git</git_url>
     <ssh_url>git@github.com:RadAd/RadNotepadMFC.git</ssh_url>
@@ -2834,21 +2834,21 @@
     <releases_url>https://api.github.com/repos/RadAd/RadVDDB/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadVDDB/deployments</deployments_url>
     <created_at>2020-04-30T06:08:26Z</created_at>
-    <updated_at>2020-04-30T06:24:00Z</updated_at>
-    <pushed_at>2020-04-30T06:23:58Z</pushed_at>
+    <updated_at>2020-07-17T07:25:41Z</updated_at>
+    <pushed_at>2020-07-17T07:25:38Z</pushed_at>
     <git_url>git://github.com/RadAd/RadVDDB.git</git_url>
     <ssh_url>git@github.com:RadAd/RadVDDB.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadVDDB.git</clone_url>
     <svn_url>https://github.com/RadAd/RadVDDB</svn_url>
-    <homepage/>
-    <size>19</size>
+    <homepage></homepage>
+    <size>23</size>
     <stargazers_count>0</stargazers_count>
     <watchers_count>0</watchers_count>
     <language>C++</language>
     <has_issues>true</has_issues>
-    <has_projects>true</has_projects>
+    <has_projects>false</has_projects>
     <has_downloads>true</has_downloads>
-    <has_wiki>true</has_wiki>
+    <has_wiki>false</has_wiki>
     <has_pages>false</has_pages>
     <forks_count>0</forks_count>
     <mirror_url/>
@@ -2857,6 +2857,11 @@
     <open_issues_count>0</open_issues_count>
     <license/>
     <topics>
+      <topic>appveyor</topic>
+      <topic>deskband</topic>
+      <topic>gui-application</topic>
+      <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
     <forks>0</forks>
     <open_issues>0</open_issues>
@@ -2930,14 +2935,14 @@
     <releases_url>https://api.github.com/repos/RadAd/RadWin32/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadWin32/deployments</deployments_url>
     <created_at>2016-11-08T23:23:11Z</created_at>
-    <updated_at>2019-09-18T22:34:38Z</updated_at>
-    <pushed_at>2019-06-27T00:25:29Z</pushed_at>
+    <updated_at>2020-07-16T08:42:42Z</updated_at>
+    <pushed_at>2020-07-16T08:42:39Z</pushed_at>
     <git_url>git://github.com/RadAd/RadWin32.git</git_url>
     <ssh_url>git@github.com:RadAd/RadWin32.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadWin32.git</clone_url>
     <svn_url>https://github.com/RadAd/RadWin32</svn_url>
     <homepage/>
-    <size>160</size>
+    <size>138</size>
     <stargazers_count>2</stargazers_count>
     <watchers_count>2</watchers_count>
     <language>C++</language>
@@ -3028,14 +3033,14 @@
     <releases_url>https://api.github.com/repos/RadAd/RadWin32Samples/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadWin32Samples/deployments</deployments_url>
     <created_at>2016-12-06T04:58:23Z</created_at>
-    <updated_at>2019-09-18T22:34:36Z</updated_at>
-    <pushed_at>2019-06-27T00:26:41Z</pushed_at>
+    <updated_at>2020-07-16T08:43:52Z</updated_at>
+    <pushed_at>2020-07-16T08:43:50Z</pushed_at>
     <git_url>git://github.com/RadAd/RadWin32Samples.git</git_url>
     <ssh_url>git@github.com:RadAd/RadWin32Samples.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadWin32Samples.git</clone_url>
     <svn_url>https://github.com/RadAd/RadWin32Samples</svn_url>
     <homepage/>
-    <size>62</size>
+    <size>63</size>
     <stargazers_count>1</stargazers_count>
     <watchers_count>1</watchers_count>
     <language>C++</language>

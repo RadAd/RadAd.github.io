@@ -43,6 +43,7 @@
     <xsl:template name="Group">
         <xsl:param name="type" />
         <xsl:variable name="ltype" select="translate($type, $uppercase, $smallcase)" />
+	<xsl:element name="p">
         <xsl:element name="h2">
             <xsl:element name="a">
                 <xsl:attribute name="href">https://github.com/RadAd?tab=repositories&amp;q=<xsl:value-of select="$ltype"/></xsl:attribute>
@@ -53,6 +54,7 @@
         <xsl:element name="table">
             <xsl:apply-templates select="*[topics/topic[text()=$ltype]]"/>
         </xsl:element>
+        </xsl:element>
     </xsl:template>
     
     <xsl:template name="Group2">
@@ -60,6 +62,7 @@
         <xsl:param name="type2" />
         <xsl:variable name="ltype1" select="translate($type1, $uppercase, $smallcase)" />
         <xsl:variable name="ltype2" select="translate($type2, $uppercase, $smallcase)" />
+	<xsl:element name="p">
         <xsl:element name="h2">
             <xsl:element name="a">
                 <xsl:attribute name="href">https://github.com/RadAd?tab=repositories&amp;q=%23<xsl:value-of select="$ltype1"/>+%23<xsl:value-of select="$ltype2"/></xsl:attribute>
@@ -69,6 +72,7 @@
         </xsl:element>
         <xsl:element name="table">
             <xsl:apply-templates select="*[topics/topic[text()=$ltype1]][topics/topic[text()=$ltype2]]"/>
+        </xsl:element>
         </xsl:element>
     </xsl:template>
     

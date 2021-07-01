@@ -1552,8 +1552,8 @@
     <releases_url>https://api.github.com/repos/RadAd/RadAd.github.io/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadAd.github.io/deployments</deployments_url>
     <created_at>2016-07-18T04:20:25Z</created_at>
-    <updated_at>2021-07-01T03:39:53Z</updated_at>
-    <pushed_at>2021-07-01T03:39:51Z</pushed_at>
+    <updated_at>2021-07-01T03:42:22Z</updated_at>
+    <pushed_at>2021-07-01T03:42:19Z</pushed_at>
     <git_url>git://github.com/RadAd/RadAd.github.io.git</git_url>
     <ssh_url>git@github.com:RadAd/RadAd.github.io.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadAd.github.io.git</clone_url>
@@ -2240,7 +2240,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadFloatDB/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadFloatDB/deployments</deployments_url>
     <created_at>2020-08-18T00:39:10Z</created_at>
-    <updated_at>2021-07-01T02:50:16Z</updated_at>
+    <updated_at>2021-07-01T03:46:51Z</updated_at>
     <pushed_at>2020-08-18T06:55:43Z</pushed_at>
     <git_url>git://github.com/RadAd/RadFloatDB.git</git_url>
     <ssh_url>git@github.com:RadAd/RadFloatDB.git</ssh_url>
@@ -2269,7 +2269,6 @@
       <topic>atl</topic>
       <topic>win32</topic>
       <topic>wtl</topic>
-      <topic>deskband</topic>
     </topics>
     <forks>0</forks>
     <open_issues>0</open_issues>

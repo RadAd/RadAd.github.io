@@ -25,8 +25,9 @@
         <Repo name="RadNotepad" icon="res/drawable/ic_launcher.png" releases="true"/>
         <Repo name="Rainbow" icon="rainbow.ico" releases="true"/>
         <Repo name="RadUnread" icon="res/drawable/icon.png" releases="true"/>
+        <Repo name="RadVDDB" releases="true"/>
         <Repo name="RadWsh" releases="true"/>
-        <Repo name="SyntaxHighlighter" releases="true"/>
+        <Repo name="SyntaxHighlighter" releases="false"/>
         <Repo name="WebIntents" icon="res/drawable/web_intents_icon.png" releases="true"/>
     </User>
 </MyGithub>

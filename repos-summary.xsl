@@ -93,7 +93,7 @@
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:element name="img">
-                                    <xsl:attribute name="src">https://www.iconsdb.com/icons/download/white/github-11-16.png</xsl:attribute>
+                                    <xsl:attribute name="src">github-11-16.png</xsl:attribute>
                                     <xsl:attribute name="width">16</xsl:attribute>
                                     <xsl:attribute name="height">16</xsl:attribute>
                                 </xsl:element>

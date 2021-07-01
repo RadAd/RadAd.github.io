@@ -7,7 +7,7 @@
         <Repo name="Clock" icon="res/drawable/clock.png" releases="true"/>
         <Repo name="CmdFileUtils" releases="true"/>
         <Repo name="ConEdit" icon="ConEdit.ico" releases="true"/>
-        <Repo name="DesktopsMenu" icon="res/main.ico" releases="false"/>
+        <Repo name="DesktopsMenu" icon="res/main.ico" releases="true"/>
         <Repo name="DbgOut" icon="bug.ico" releases="true"/>
         <Repo name="Notepad" icon="Notepad.ico" releases="true"/>
         <Repo name="OpenAsText" icon="res/drawable/text.png" releases="true"/>

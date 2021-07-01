@@ -20,44 +20,27 @@
     </xsl:template>
     
     <xsl:template match="repos">
-        <xsl:call-template name="Group2">
+        <xsl:call-template name="Group">
             <xsl:with-param name="type1">Windows</xsl:with-param>
             <xsl:with-param name="type2">Gui</xsl:with-param>
         </xsl:call-template>
-        <xsl:call-template name="Group2">
+        <xsl:call-template name="Group">
             <xsl:with-param name="type1">Windows</xsl:with-param>
             <xsl:with-param name="type2">Console</xsl:with-param>
         </xsl:call-template>
-        <xsl:call-template name="Group2">
+        <xsl:call-template name="Group">
             <xsl:with-param name="type1">Windows</xsl:with-param>
             <xsl:with-param name="type2">Deskband</xsl:with-param>
         </xsl:call-template>
         <xsl:call-template name="Group">
-            <xsl:with-param name="type">Java</xsl:with-param>
+            <xsl:with-param name="type1">Java</xsl:with-param>
         </xsl:call-template>
         <xsl:call-template name="Group">
-            <xsl:with-param name="type">Android</xsl:with-param>
+            <xsl:with-param name="type1">Android</xsl:with-param>
         </xsl:call-template>
     </xsl:template>
     
     <xsl:template name="Group">
-        <xsl:param name="type" />
-        <xsl:variable name="ltype" select="translate($type, $uppercase, $smallcase)" />
-	<xsl:element name="p">
-        <xsl:element name="h2">
-            <xsl:element name="a">
-                <xsl:attribute name="href">https://github.com/RadAd?tab=repositories&amp;q=<xsl:value-of select="$ltype"/></xsl:attribute>
-                <xsl:attribute name="target">_blank</xsl:attribute>
-                <xsl:value-of select="$type"/>
-            </xsl:element>
-        </xsl:element>
-        <xsl:element name="table">
-            <xsl:apply-templates select="*[topics/topic[text()=$ltype]]"/>
-        </xsl:element>
-        </xsl:element>
-    </xsl:template>
-    
-    <xsl:template name="Group2">
         <xsl:param name="type1" />
         <xsl:param name="type2" />
         <xsl:variable name="ltype1" select="translate($type1, $uppercase, $smallcase)" />
@@ -71,7 +54,14 @@
             </xsl:element>
         </xsl:element>
         <xsl:element name="table">
-            <xsl:apply-templates select="*[topics/topic[text()=$ltype1]][topics/topic[text()=$ltype2]]"/>
+	    <xsl:choose>
+	    <xsl:when test="$ltype2">
+		<xsl:apply-templates select="*[topics/topic[text()=$ltype1]][topics/topic[text()=$ltype2]]"/>
+            </xsl:when>
+	    <xsl:otherwise>
+		<xsl:apply-templates select="*[topics/topic[text()=$ltype1]]"/>
+            </xsl:otherwise>
+            </xsl:choose>
         </xsl:element>
         </xsl:element>
     </xsl:template>

@@ -359,14 +359,14 @@
     <releases_url>https://api.github.com/repos/RadAd/CmdFileUtils/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/CmdFileUtils/deployments</deployments_url>
     <created_at>2016-12-13T23:40:21Z</created_at>
-    <updated_at>2021-05-26T12:32:31Z</updated_at>
-    <pushed_at>2021-05-26T12:32:29Z</pushed_at>
+    <updated_at>2021-06-13T08:42:02Z</updated_at>
+    <pushed_at>2021-06-28T05:13:45Z</pushed_at>
     <git_url>git://github.com/RadAd/CmdFileUtils.git</git_url>
     <ssh_url>git@github.com:RadAd/CmdFileUtils.git</ssh_url>
     <clone_url>https://github.com/RadAd/CmdFileUtils.git</clone_url>
     <svn_url>https://github.com/RadAd/CmdFileUtils</svn_url>
     <homepage/>
-    <size>138</size>
+    <size>176</size>
     <stargazers_count>1</stargazers_count>
     <watchers_count>1</watchers_count>
     <language>C++</language>
@@ -660,14 +660,14 @@
     <releases_url>https://api.github.com/repos/RadAd/Desktop/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/Desktop/deployments</deployments_url>
     <created_at>2021-06-08T02:44:06Z</created_at>
-    <updated_at>2021-06-08T02:53:03Z</updated_at>
-    <pushed_at>2021-06-08T02:50:21Z</pushed_at>
+    <updated_at>2021-06-28T03:44:56Z</updated_at>
+    <pushed_at>2021-06-28T03:44:54Z</pushed_at>
     <git_url>git://github.com/RadAd/Desktop.git</git_url>
     <ssh_url>git@github.com:RadAd/Desktop.git</ssh_url>
     <clone_url>https://github.com/RadAd/Desktop.git</clone_url>
     <svn_url>https://github.com/RadAd/Desktop</svn_url>
     <homepage></homepage>
-    <size>31</size>
+    <size>33</size>
     <stargazers_count>0</stargazers_count>
     <watchers_count>0</watchers_count>
     <language>C++</language>
@@ -686,6 +686,106 @@
       <topic>windows</topic>
       <topic>console</topic>
       <topic>virtual-desktops</topic>
+    </topics>
+    <forks>0</forks>
+    <open_issues>0</open_issues>
+    <watchers>0</watchers>
+    <default_branch>master</default_branch>
+  </repo>
+  <repo>
+    <id>381857436</id>
+    <node_id>MDEwOlJlcG9zaXRvcnkzODE4NTc0MzY=</node_id>
+    <name>DesktopsMenu</name>
+    <full_name>RadAd/DesktopsMenu</full_name>
+    <private>false</private>
+    <owner>
+      <login>RadAd</login>
+      <id>2518689</id>
+      <node_id>MDQ6VXNlcjI1MTg2ODk=</node_id>
+      <avatar_url>https://avatars.githubusercontent.com/u/2518689?v=4</avatar_url>
+      <gravatar_id></gravatar_id>
+      <url>https://api.github.com/users/RadAd</url>
+      <html_url>https://github.com/RadAd</html_url>
+      <followers_url>https://api.github.com/users/RadAd/followers</followers_url>
+      <following_url>https://api.github.com/users/RadAd/following{/other_user}</following_url>
+      <gists_url>https://api.github.com/users/RadAd/gists{/gist_id}</gists_url>
+      <starred_url>https://api.github.com/users/RadAd/starred{/owner}{/repo}</starred_url>
+      <subscriptions_url>https://api.github.com/users/RadAd/subscriptions</subscriptions_url>
+      <organizations_url>https://api.github.com/users/RadAd/orgs</organizations_url>
+      <repos_url>https://api.github.com/users/RadAd/repos</repos_url>
+      <events_url>https://api.github.com/users/RadAd/events{/privacy}</events_url>
+      <received_events_url>https://api.github.com/users/RadAd/received_events</received_events_url>
+      <type>User</type>
+      <site_admin>false</site_admin>
+    </owner>
+    <html_url>https://github.com/RadAd/DesktopsMenu</html_url>
+    <description>Adds items to the windows system menu for virtual desktops</description>
+    <fork>false</fork>
+    <url>https://api.github.com/repos/RadAd/DesktopsMenu</url>
+    <forks_url>https://api.github.com/repos/RadAd/DesktopsMenu/forks</forks_url>
+    <keys_url>https://api.github.com/repos/RadAd/DesktopsMenu/keys{/key_id}</keys_url>
+    <collaborators_url>https://api.github.com/repos/RadAd/DesktopsMenu/collaborators{/collaborator}</collaborators_url>
+    <teams_url>https://api.github.com/repos/RadAd/DesktopsMenu/teams</teams_url>
+    <hooks_url>https://api.github.com/repos/RadAd/DesktopsMenu/hooks</hooks_url>
+    <issue_events_url>https://api.github.com/repos/RadAd/DesktopsMenu/issues/events{/number}</issue_events_url>
+    <events_url>https://api.github.com/repos/RadAd/DesktopsMenu/events</events_url>
+    <assignees_url>https://api.github.com/repos/RadAd/DesktopsMenu/assignees{/user}</assignees_url>
+    <branches_url>https://api.github.com/repos/RadAd/DesktopsMenu/branches{/branch}</branches_url>
+    <tags_url>https://api.github.com/repos/RadAd/DesktopsMenu/tags</tags_url>
+    <blobs_url>https://api.github.com/repos/RadAd/DesktopsMenu/git/blobs{/sha}</blobs_url>
+    <git_tags_url>https://api.github.com/repos/RadAd/DesktopsMenu/git/tags{/sha}</git_tags_url>
+    <git_refs_url>https://api.github.com/repos/RadAd/DesktopsMenu/git/refs{/sha}</git_refs_url>
+    <trees_url>https://api.github.com/repos/RadAd/DesktopsMenu/git/trees{/sha}</trees_url>
+    <statuses_url>https://api.github.com/repos/RadAd/DesktopsMenu/statuses/{sha}</statuses_url>
+    <languages_url>https://api.github.com/repos/RadAd/DesktopsMenu/languages</languages_url>
+    <stargazers_url>https://api.github.com/repos/RadAd/DesktopsMenu/stargazers</stargazers_url>
+    <contributors_url>https://api.github.com/repos/RadAd/DesktopsMenu/contributors</contributors_url>
+    <subscribers_url>https://api.github.com/repos/RadAd/DesktopsMenu/subscribers</subscribers_url>
+    <subscription_url>https://api.github.com/repos/RadAd/DesktopsMenu/subscription</subscription_url>
+    <commits_url>https://api.github.com/repos/RadAd/DesktopsMenu/commits{/sha}</commits_url>
+    <git_commits_url>https://api.github.com/repos/RadAd/DesktopsMenu/git/commits{/sha}</git_commits_url>
+    <comments_url>https://api.github.com/repos/RadAd/DesktopsMenu/comments{/number}</comments_url>
+    <issue_comment_url>https://api.github.com/repos/RadAd/DesktopsMenu/issues/comments{/number}</issue_comment_url>
+    <contents_url>https://api.github.com/repos/RadAd/DesktopsMenu/contents/{+path}</contents_url>
+    <compare_url>https://api.github.com/repos/RadAd/DesktopsMenu/compare/{base}...{head}</compare_url>
+    <merges_url>https://api.github.com/repos/RadAd/DesktopsMenu/merges</merges_url>
+    <archive_url>https://api.github.com/repos/RadAd/DesktopsMenu/{archive_format}{/ref}</archive_url>
+    <downloads_url>https://api.github.com/repos/RadAd/DesktopsMenu/downloads</downloads_url>
+    <issues_url>https://api.github.com/repos/RadAd/DesktopsMenu/issues{/number}</issues_url>
+    <pulls_url>https://api.github.com/repos/RadAd/DesktopsMenu/pulls{/number}</pulls_url>
+    <milestones_url>https://api.github.com/repos/RadAd/DesktopsMenu/milestones{/number}</milestones_url>
+    <notifications_url>https://api.github.com/repos/RadAd/DesktopsMenu/notifications{?since,all,participating}</notifications_url>
+    <labels_url>https://api.github.com/repos/RadAd/DesktopsMenu/labels{/name}</labels_url>
+    <releases_url>https://api.github.com/repos/RadAd/DesktopsMenu/releases{/id}</releases_url>
+    <deployments_url>https://api.github.com/repos/RadAd/DesktopsMenu/deployments</deployments_url>
+    <created_at>2021-06-30T23:31:33Z</created_at>
+    <updated_at>2021-06-30T23:37:26Z</updated_at>
+    <pushed_at>2021-06-30T23:36:18Z</pushed_at>
+    <git_url>git://github.com/RadAd/DesktopsMenu.git</git_url>
+    <ssh_url>git@github.com:RadAd/DesktopsMenu.git</ssh_url>
+    <clone_url>https://github.com/RadAd/DesktopsMenu.git</clone_url>
+    <svn_url>https://github.com/RadAd/DesktopsMenu</svn_url>
+    <homepage></homepage>
+    <size>32</size>
+    <stargazers_count>0</stargazers_count>
+    <watchers_count>0</watchers_count>
+    <language>C++</language>
+    <has_issues>true</has_issues>
+    <has_projects>true</has_projects>
+    <has_downloads>true</has_downloads>
+    <has_wiki>true</has_wiki>
+    <has_pages>false</has_pages>
+    <forks_count>0</forks_count>
+    <mirror_url/>
+    <archived>false</archived>
+    <disabled>false</disabled>
+    <open_issues_count>0</open_issues_count>
+    <license/>
+    <topics>
+      <topic>windows</topic>
+      <topic>gui</topic>
+      <topic>appveyor</topic>
+      <topic>win32</topic>
     </topics>
     <forks>0</forks>
     <open_issues>0</open_issues>
@@ -1056,14 +1156,14 @@
     <releases_url>https://api.github.com/repos/RadAd/MiniUtils/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/MiniUtils/deployments</deployments_url>
     <created_at>2017-07-28T12:47:46Z</created_at>
-    <updated_at>2021-05-24T03:34:14Z</updated_at>
-    <pushed_at>2021-05-24T03:34:11Z</pushed_at>
+    <updated_at>2021-06-11T04:53:41Z</updated_at>
+    <pushed_at>2021-06-11T04:53:39Z</pushed_at>
     <git_url>git://github.com/RadAd/MiniUtils.git</git_url>
     <ssh_url>git@github.com:RadAd/MiniUtils.git</ssh_url>
     <clone_url>https://github.com/RadAd/MiniUtils.git</clone_url>
     <svn_url>https://github.com/RadAd/MiniUtils</svn_url>
     <homepage></homepage>
-    <size>83</size>
+    <size>72</size>
     <stargazers_count>1</stargazers_count>
     <watchers_count>1</watchers_count>
     <language>C++</language>
@@ -1156,7 +1256,7 @@
     <releases_url>https://api.github.com/repos/RadAd/Notepad/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/Notepad/deployments</deployments_url>
     <created_at>2017-07-20T05:17:15Z</created_at>
-    <updated_at>2020-05-03T00:30:38Z</updated_at>
+    <updated_at>2021-07-01T02:00:38Z</updated_at>
     <pushed_at>2019-06-11T04:55:21Z</pushed_at>
     <git_url>git://github.com/RadAd/Notepad.git</git_url>
     <ssh_url>git@github.com:RadAd/Notepad.git</ssh_url>
@@ -1180,6 +1280,7 @@
     <license/>
     <topics>
       <topic>windows</topic>
+      <topic>gui</topic>
       <topic>appveyor</topic>
       <topic>gui-application</topic>
       <topic>text-editor</topic>
@@ -1450,14 +1551,14 @@
     <releases_url>https://api.github.com/repos/RadAd/RadAd.github.io/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadAd.github.io/deployments</deployments_url>
     <created_at>2016-07-18T04:20:25Z</created_at>
-    <updated_at>2020-07-22T03:52:56Z</updated_at>
-    <pushed_at>2020-07-22T03:52:54Z</pushed_at>
+    <updated_at>2021-06-08T05:08:20Z</updated_at>
+    <pushed_at>2021-06-08T05:08:17Z</pushed_at>
     <git_url>git://github.com/RadAd/RadAd.github.io.git</git_url>
     <ssh_url>git@github.com:RadAd/RadAd.github.io.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadAd.github.io.git</clone_url>
     <svn_url>https://github.com/RadAd/RadAd.github.io</svn_url>
     <homepage>https://RadAd.github.io</homepage>
-    <size>255</size>
+    <size>303</size>
     <stargazers_count>0</stargazers_count>
     <watchers_count>0</watchers_count>
     <language>HTML</language>
@@ -1643,7 +1744,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadAudioMeterDB/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadAudioMeterDB/deployments</deployments_url>
     <created_at>2020-10-06T06:16:33Z</created_at>
-    <updated_at>2021-04-07T17:27:23Z</updated_at>
+    <updated_at>2021-07-01T02:02:20Z</updated_at>
     <pushed_at>2020-10-06T06:16:42Z</pushed_at>
     <git_url>git://github.com/RadAd/RadAudioMeterDB.git</git_url>
     <ssh_url>git@github.com:RadAd/RadAudioMeterDB.git</ssh_url>
@@ -1667,7 +1768,6 @@
     <license/>
     <topics>
       <topic>windows</topic>
-      <topic>gui</topic>
       <topic>win32</topic>
       <topic>deskband</topic>
     </topics>
@@ -1743,13 +1843,13 @@
     <releases_url>https://api.github.com/repos/RadAd/RadAudioPlayer/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadAudioPlayer/deployments</deployments_url>
     <created_at>2019-05-03T01:25:27Z</created_at>
-    <updated_at>2019-06-06T01:33:26Z</updated_at>
+    <updated_at>2021-07-01T01:58:11Z</updated_at>
     <pushed_at>2019-06-18T00:32:33Z</pushed_at>
     <git_url>git://github.com/RadAd/RadAudioPlayer.git</git_url>
     <ssh_url>git@github.com:RadAd/RadAudioPlayer.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadAudioPlayer.git</clone_url>
     <svn_url>https://github.com/RadAd/RadAudioPlayer</svn_url>
-    <homepage/>
+    <homepage></homepage>
     <size>53</size>
     <stargazers_count>1</stargazers_count>
     <watchers_count>1</watchers_count>
@@ -1767,6 +1867,7 @@
     <license/>
     <topics>
       <topic>windows</topic>
+      <topic>gui</topic>
       <topic>gui-application</topic>
       <topic>mci</topic>
       <topic>win32</topic>
@@ -2138,7 +2239,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadFloatDB/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadFloatDB/deployments</deployments_url>
     <created_at>2020-08-18T00:39:10Z</created_at>
-    <updated_at>2020-10-21T01:04:29Z</updated_at>
+    <updated_at>2021-06-28T05:29:52Z</updated_at>
     <pushed_at>2020-08-18T06:55:43Z</pushed_at>
     <git_url>git://github.com/RadAd/RadFloatDB.git</git_url>
     <ssh_url>git@github.com:RadAd/RadFloatDB.git</ssh_url>
@@ -2161,6 +2262,7 @@
     <open_issues_count>0</open_issues_count>
     <license/>
     <topics>
+      <topic>windows</topic>
       <topic>gui-application</topic>
       <topic>atl</topic>
       <topic>win32</topic>
@@ -2239,13 +2341,13 @@
     <releases_url>https://api.github.com/repos/RadAd/RadGui/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadGui/deployments</deployments_url>
     <created_at>2017-07-31T00:51:45Z</created_at>
-    <updated_at>2020-07-02T13:48:53Z</updated_at>
+    <updated_at>2021-07-01T01:58:31Z</updated_at>
     <pushed_at>2019-07-30T01:13:44Z</pushed_at>
     <git_url>git://github.com/RadAd/RadGui.git</git_url>
     <ssh_url>git@github.com:RadAd/RadGui.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadGui.git</clone_url>
     <svn_url>https://github.com/RadAd/RadGui</svn_url>
-    <homepage/>
+    <homepage></homepage>
     <size>185</size>
     <stargazers_count>3</stargazers_count>
     <watchers_count>3</watchers_count>
@@ -2263,6 +2365,7 @@
     <license/>
     <topics>
       <topic>windows</topic>
+      <topic>gui</topic>
       <topic>appveyor</topic>
       <topic>gui-application</topic>
       <topic>win32</topic>
@@ -2339,7 +2442,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadImgViewer/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadImgViewer/deployments</deployments_url>
     <created_at>2018-06-07T07:31:57Z</created_at>
-    <updated_at>2020-12-20T04:34:13Z</updated_at>
+    <updated_at>2021-07-01T01:58:59Z</updated_at>
     <pushed_at>2020-07-17T00:40:16Z</pushed_at>
     <git_url>git://github.com/RadAd/RadImgViewer.git</git_url>
     <ssh_url>git@github.com:RadAd/RadImgViewer.git</ssh_url>
@@ -2363,6 +2466,7 @@
     <license/>
     <topics>
       <topic>windows</topic>
+      <topic>gui</topic>
       <topic>appveyor</topic>
       <topic>gui-application</topic>
       <topic>win32</topic>
@@ -2439,7 +2543,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadJoyKey/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadJoyKey/deployments</deployments_url>
     <created_at>2014-09-23T04:18:14Z</created_at>
-    <updated_at>2020-10-21T01:07:18Z</updated_at>
+    <updated_at>2021-07-01T01:59:11Z</updated_at>
     <pushed_at>2019-06-13T04:34:31Z</pushed_at>
     <git_url>git://github.com/RadAd/RadJoyKey.git</git_url>
     <ssh_url>git@github.com:RadAd/RadJoyKey.git</ssh_url>
@@ -2463,6 +2567,7 @@
     <license/>
     <topics>
       <topic>windows</topic>
+      <topic>gui</topic>
       <topic>gui-application</topic>
       <topic>win32</topic>
     </topics>
@@ -2538,7 +2643,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadJoyKeyX/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadJoyKeyX/deployments</deployments_url>
     <created_at>2016-05-12T01:53:08Z</created_at>
-    <updated_at>2020-10-21T01:08:18Z</updated_at>
+    <updated_at>2021-07-01T01:59:22Z</updated_at>
     <pushed_at>2016-10-23T23:48:08Z</pushed_at>
     <git_url>git://github.com/RadAd/RadJoyKeyX.git</git_url>
     <ssh_url>git@github.com:RadAd/RadJoyKeyX.git</ssh_url>
@@ -2562,6 +2667,7 @@
     <license/>
     <topics>
       <topic>windows</topic>
+      <topic>gui</topic>
       <topic>appveyor</topic>
       <topic>gui-application</topic>
       <topic>xinput</topic>
@@ -2639,7 +2745,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadKeyLockDB/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadKeyLockDB/deployments</deployments_url>
     <created_at>2020-10-06T01:38:52Z</created_at>
-    <updated_at>2020-10-21T01:03:54Z</updated_at>
+    <updated_at>2021-07-01T02:02:31Z</updated_at>
     <pushed_at>2020-10-06T01:43:30Z</pushed_at>
     <git_url>git://github.com/RadAd/RadKeyLockDB.git</git_url>
     <ssh_url>git@github.com:RadAd/RadKeyLockDB.git</ssh_url>
@@ -2663,7 +2769,6 @@
     <license/>
     <topics>
       <topic>windows</topic>
-      <topic>gui</topic>
       <topic>win32</topic>
       <topic>deskband</topic>
     </topics>
@@ -2739,14 +2844,14 @@
     <releases_url>https://api.github.com/repos/RadAd/RadLine/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadLine/deployments</deployments_url>
     <created_at>2019-06-06T01:07:05Z</created_at>
-    <updated_at>2021-04-01T02:34:56Z</updated_at>
-    <pushed_at>2021-04-01T02:34:53Z</pushed_at>
+    <updated_at>2021-06-15T03:30:19Z</updated_at>
+    <pushed_at>2021-06-15T03:30:17Z</pushed_at>
     <git_url>git://github.com/RadAd/RadLine.git</git_url>
     <ssh_url>git@github.com:RadAd/RadLine.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadLine.git</clone_url>
     <svn_url>https://github.com/RadAd/RadLine</svn_url>
     <homepage></homepage>
-    <size>377</size>
+    <size>383</size>
     <stargazers_count>1</stargazers_count>
     <watchers_count>1</watchers_count>
     <language>C++</language>
@@ -2939,14 +3044,14 @@
     <releases_url>https://api.github.com/repos/RadAd/RadNotepadMFC/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadNotepadMFC/deployments</deployments_url>
     <created_at>2017-08-04T04:00:56Z</created_at>
-    <updated_at>2021-04-04T09:35:10Z</updated_at>
-    <pushed_at>2021-04-04T09:35:07Z</pushed_at>
+    <updated_at>2021-06-22T06:59:46Z</updated_at>
+    <pushed_at>2021-06-22T07:07:51Z</pushed_at>
     <git_url>git://github.com/RadAd/RadNotepadMFC.git</git_url>
     <ssh_url>git@github.com:RadAd/RadNotepadMFC.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadNotepadMFC.git</clone_url>
     <svn_url>https://github.com/RadAd/RadNotepadMFC</svn_url>
     <homepage></homepage>
-    <size>1181</size>
+    <size>1251</size>
     <stargazers_count>3</stargazers_count>
     <watchers_count>3</watchers_count>
     <language>C++</language>
@@ -3237,7 +3342,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadTabs/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadTabs/deployments</deployments_url>
     <created_at>2019-07-19T06:14:09Z</created_at>
-    <updated_at>2020-10-21T01:06:20Z</updated_at>
+    <updated_at>2021-07-01T02:03:33Z</updated_at>
     <pushed_at>2019-07-19T08:10:30Z</pushed_at>
     <git_url>git://github.com/RadAd/RadTabs.git</git_url>
     <ssh_url>git@github.com:RadAd/RadTabs.git</ssh_url>
@@ -3261,7 +3366,6 @@
     <license/>
     <topics>
       <topic>windows</topic>
-      <topic>gui</topic>
       <topic>win32</topic>
     </topics>
     <forks>0</forks>
@@ -3336,7 +3440,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadTerminal/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadTerminal/deployments</deployments_url>
     <created_at>2019-05-23T00:22:22Z</created_at>
-    <updated_at>2020-11-03T06:50:31Z</updated_at>
+    <updated_at>2021-07-01T02:01:26Z</updated_at>
     <pushed_at>2019-07-18T02:59:06Z</pushed_at>
     <git_url>git://github.com/RadAd/RadTerminal.git</git_url>
     <ssh_url>git@github.com:RadAd/RadTerminal.git</ssh_url>
@@ -3360,6 +3464,7 @@
     <license/>
     <topics>
       <topic>windows</topic>
+      <topic>gui</topic>
       <topic>terminal</topic>
       <topic>gui-application</topic>
       <topic>win32</topic>
@@ -3631,7 +3736,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadVDDB/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadVDDB/deployments</deployments_url>
     <created_at>2020-04-30T06:08:26Z</created_at>
-    <updated_at>2021-04-15T02:23:39Z</updated_at>
+    <updated_at>2021-07-01T02:02:45Z</updated_at>
     <pushed_at>2021-04-15T02:23:36Z</pushed_at>
     <git_url>git://github.com/RadAd/RadVDDB.git</git_url>
     <ssh_url>git@github.com:RadAd/RadVDDB.git</ssh_url>
@@ -3655,7 +3760,6 @@
     <license/>
     <topics>
       <topic>windows</topic>
-      <topic>gui</topic>
       <topic>appveyor</topic>
       <topic>win32</topic>
       <topic>deskband</topic>

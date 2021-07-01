@@ -20,8 +20,17 @@
     </xsl:template>
     
     <xsl:template match="repos">
-        <xsl:call-template name="Group">
-            <xsl:with-param name="type">Windows</xsl:with-param>
+        <xsl:call-template name="Group2">
+            <xsl:with-param name="type1">Windows</xsl:with-param>
+            <xsl:with-param name="type2">Gui</xsl:with-param>
+        </xsl:call-template>
+        <xsl:call-template name="Group2">
+            <xsl:with-param name="type1">Windows</xsl:with-param>
+            <xsl:with-param name="type2">Console</xsl:with-param>
+        </xsl:call-template>
+        <xsl:call-template name="Group2">
+            <xsl:with-param name="type1">Windows</xsl:with-param>
+            <xsl:with-param name="type2">Deskband</xsl:with-param>
         </xsl:call-template>
         <xsl:call-template name="Group">
             <xsl:with-param name="type">Java</xsl:with-param>
@@ -43,6 +52,23 @@
         </xsl:element>
         <xsl:element name="table">
             <xsl:apply-templates select="*[topics/topic[text()=$ltype]]"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template name="Group2">
+        <xsl:param name="type1" />
+        <xsl:param name="type2" />
+        <xsl:variable name="ltype1" select="translate($type1, $uppercase, $smallcase)" />
+        <xsl:variable name="ltype2" select="translate($type2, $uppercase, $smallcase)" />
+        <xsl:element name="h2">
+            <xsl:element name="a">
+                <xsl:attribute name="href">https://github.com/RadAd?tab=repositories&amp;q=%23<xsl:value-of select="$ltype1"/>+%23<xsl:value-of select="$ltype2"/></xsl:attribute>
+                <xsl:attribute name="target">_blank</xsl:attribute>
+                <xsl:value-of select="$type1"/><xsl:text> </xsl:text><xsl:value-of select="$type2"/>
+            </xsl:element>
+        </xsl:element>
+        <xsl:element name="table">
+            <xsl:apply-templates select="*[topics/topic[text()=$ltype1]][topics/topic[text()=$ltype2]]"/>
         </xsl:element>
     </xsl:template>
     

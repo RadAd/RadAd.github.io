@@ -2,21 +2,23 @@
 <?xml-stylesheet type="text/xsl" href="MyGithub.xsl"?>
 <MyGithub>
     <User name="RadAd">
+        <Repo name="ANSIDraw" releases="true"/>
         <Repo name="AppDrawer" icon="res/drawable/app_drawer_icon.png" releases="true"/>
         <Repo name="Clock" icon="res/drawable/clock.png" releases="true"/>
         <Repo name="CmdFileUtils" releases="true"/>
         <Repo name="ConEdit" icon="ConEdit.ico" releases="true"/>
-        <Repo name="DesktopsMenu" icon="res/main.ico" releases="true"/>
+        <Repo name="DesktopsMenu" icon="res/main.ico" releases="false"/>
         <Repo name="DbgOut" icon="bug.ico" releases="true"/>
         <Repo name="Notepad" icon="Notepad.ico" releases="true"/>
         <Repo name="OpenAsText" icon="res/drawable/text.png" releases="true"/>
+        <Repo name="RadConsole" releases="true"/>
         <Repo name="RadNotepadMFC" icon="res/RadNotepad.ico" releases="true"/>
         <Repo name="RadAudioPlayer" icon="res/Music.ico" releases="true"/>
         <Repo name="RadImgViewer" icon="RadImgViewer/res/imgviewer.ico" releases="true"/>
-        <Repo name="RadFloatDB" icon="RadFloatDB/RadFloatDB.ico" releases="true"/>
+        <Repo name="RadFloatDB" icon="RadFloatDB/RadFloatDB.ico" releases="false"/>
         <Repo name="RadGui" icon="RadGui.ico" releases="true"/>
         <Repo name="RadTabs" icon="RadTabsB.ico" releases="true"/>
-        <Repo name="RadTerminal" icon="RadTerminal.ico" releases="true"/>
+        <Repo name="RadTerminal" icon="RadTerminal.ico" releases="false"/>
         <Repo name="RadJoyKey" icon="RadJoyKey.ico" releases="true"/>
         <Repo name="RadJoyKeyX" icon="RadJoyKeyX.ico" releases="true"/>
         <Repo name="RadConsole" shippable="5811348c133af40e00ffdfba" releases="true"/>
@@ -24,6 +26,7 @@
         <Repo name="Rainbow" icon="rainbow.ico" releases="true"/>
         <Repo name="RadUnread" icon="res/drawable/icon.png" releases="true"/>
         <Repo name="RadWsh" releases="true"/>
+        <Repo name="SyntaxHighlighter" releases="true"/>
         <Repo name="WebIntents" icon="res/drawable/web_intents_icon.png" releases="true"/>
     </User>
 </MyGithub>

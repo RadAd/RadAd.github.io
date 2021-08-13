@@ -1,7 +1,8 @@
 @echo off
 setlocal
 set CURL=curl.exe
-set JSON2XML=json2xml
+rem set JSON2XML=json2xml
+set JSON2XML=cscript /nologo "%DROPBOX_DIR%\Development\Other\js\json2xml.js"
 set XSLT=msxsl.exe
 
 prompt $G$S

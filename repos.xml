@@ -760,8 +760,8 @@
     <releases_url>https://api.github.com/repos/RadAd/DesktopsMenu/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/DesktopsMenu/deployments</deployments_url>
     <created_at>2021-06-30T23:31:33Z</created_at>
-    <updated_at>2021-07-01T02:50:56Z</updated_at>
-    <pushed_at>2021-07-01T08:24:34Z</pushed_at>
+    <updated_at>2021-08-13T06:55:23Z</updated_at>
+    <pushed_at>2021-08-13T06:55:21Z</pushed_at>
     <git_url>git://github.com/RadAd/DesktopsMenu.git</git_url>
     <ssh_url>git@github.com:RadAd/DesktopsMenu.git</ssh_url>
     <clone_url>https://github.com/RadAd/DesktopsMenu.git</clone_url>
@@ -1158,8 +1158,8 @@
     <releases_url>https://api.github.com/repos/RadAd/MiniExplorer/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/MiniExplorer/deployments</deployments_url>
     <created_at>2021-07-12T05:50:00Z</created_at>
-    <updated_at>2021-08-09T04:19:55Z</updated_at>
-    <pushed_at>2021-08-09T04:22:14Z</pushed_at>
+    <updated_at>2021-08-13T06:55:34Z</updated_at>
+    <pushed_at>2021-08-13T06:55:32Z</pushed_at>
     <git_url>git://github.com/RadAd/MiniExplorer.git</git_url>
     <ssh_url>git@github.com:RadAd/MiniExplorer.git</ssh_url>
     <clone_url>https://github.com/RadAd/MiniExplorer.git</clone_url>
@@ -1358,8 +1358,8 @@
     <releases_url>https://api.github.com/repos/RadAd/Notepad/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/Notepad/deployments</deployments_url>
     <created_at>2017-07-20T05:17:15Z</created_at>
-    <updated_at>2021-07-23T00:43:47Z</updated_at>
-    <pushed_at>2021-07-23T00:43:44Z</pushed_at>
+    <updated_at>2021-08-13T06:49:05Z</updated_at>
+    <pushed_at>2021-08-13T06:49:02Z</pushed_at>
     <git_url>git://github.com/RadAd/Notepad.git</git_url>
     <ssh_url>git@github.com:RadAd/Notepad.git</ssh_url>
     <clone_url>https://github.com/RadAd/Notepad.git</clone_url>
@@ -1653,8 +1653,8 @@
     <releases_url>https://api.github.com/repos/RadAd/RadAd.github.io/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadAd.github.io/deployments</deployments_url>
     <created_at>2016-07-18T04:20:25Z</created_at>
-    <updated_at>2021-07-21T00:25:05Z</updated_at>
-    <pushed_at>2021-07-21T00:25:02Z</pushed_at>
+    <updated_at>2021-08-13T06:35:19Z</updated_at>
+    <pushed_at>2021-08-13T06:35:16Z</pushed_at>
     <git_url>git://github.com/RadAd/RadAd.github.io.git</git_url>
     <ssh_url>git@github.com:RadAd/RadAd.github.io.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadAd.github.io.git</clone_url>
@@ -2847,8 +2847,8 @@
     <releases_url>https://api.github.com/repos/RadAd/RadJoyKeyX/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadJoyKeyX/deployments</deployments_url>
     <created_at>2016-05-12T01:53:08Z</created_at>
-    <updated_at>2021-07-01T01:59:22Z</updated_at>
-    <pushed_at>2016-10-23T23:48:08Z</pushed_at>
+    <updated_at>2021-08-13T06:52:54Z</updated_at>
+    <pushed_at>2021-08-13T06:52:51Z</pushed_at>
     <git_url>git://github.com/RadAd/RadJoyKeyX.git</git_url>
     <ssh_url>git@github.com:RadAd/RadJoyKeyX.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadJoyKeyX.git</clone_url>
@@ -3248,8 +3248,8 @@
     <releases_url>https://api.github.com/repos/RadAd/RadNotepadMFC/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadNotepadMFC/deployments</deployments_url>
     <created_at>2017-08-04T04:00:56Z</created_at>
-    <updated_at>2021-08-03T15:58:05Z</updated_at>
-    <pushed_at>2021-06-22T07:07:51Z</pushed_at>
+    <updated_at>2021-08-13T06:56:16Z</updated_at>
+    <pushed_at>2021-08-13T06:56:13Z</pushed_at>
     <git_url>git://github.com/RadAd/RadNotepadMFC.git</git_url>
     <ssh_url>git@github.com:RadAd/RadNotepadMFC.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadNotepadMFC.git</clone_url>
@@ -3645,8 +3645,8 @@
     <releases_url>https://api.github.com/repos/RadAd/RadTerminal/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadTerminal/deployments</deployments_url>
     <created_at>2019-05-23T00:22:22Z</created_at>
-    <updated_at>2021-07-07T01:11:16Z</updated_at>
-    <pushed_at>2021-07-07T01:11:13Z</pushed_at>
+    <updated_at>2021-08-13T06:56:31Z</updated_at>
+    <pushed_at>2021-08-13T06:56:29Z</pushed_at>
     <git_url>git://github.com/RadAd/RadTerminal.git</git_url>
     <ssh_url>git@github.com:RadAd/RadTerminal.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadTerminal.git</clone_url>

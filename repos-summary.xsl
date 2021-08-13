@@ -101,11 +101,11 @@
                 <xsl:element name="img">
                     <xsl:attribute name="title">Downloads</xsl:attribute>
                     <xsl:choose>
-                        <xsl:when test="$releases != 'true'">
-                            <xsl:attribute name="src">https://img.shields.io/badge/----red.svg</xsl:attribute>
+                        <xsl:when test="$releases != 'false'">
+                            <xsl:attribute name="src">https://img.shields.io/github/downloads/<xsl:value-of select="$p"/>/total.svg?maxAge=2592000&amp;label=</xsl:attribute>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:attribute name="src">https://img.shields.io/github/downloads/<xsl:value-of select="$p"/>/total.svg?maxAge=2592000&amp;label=</xsl:attribute>
+                            <xsl:attribute name="src">https://img.shields.io/badge/----red.svg</xsl:attribute>
                         </xsl:otherwise>    
                     </xsl:choose>
                 </xsl:element>
@@ -117,11 +117,11 @@
                     <xsl:element name="img">
                         <xsl:attribute name="title">Latest Release</xsl:attribute>
                         <xsl:choose>
-                            <xsl:when test="$releases != 'true'">
-                                <xsl:attribute name="src">https://img.shields.io/badge/----red.svg</xsl:attribute>
+                            <xsl:when test="$releases != 'false'">
+                                <xsl:attribute name="src">https://img.shields.io/github/release/<xsl:value-of select="$p"/>.svg?maxAge=2592000&amp;label=</xsl:attribute>
                             </xsl:when>
                             <xsl:otherwise>
-                                <xsl:attribute name="src">https://img.shields.io/github/release/<xsl:value-of select="$p"/>.svg?maxAge=2592000&amp;label=</xsl:attribute>
+                                <xsl:attribute name="src">https://img.shields.io/badge/----red.svg</xsl:attribute>
                             </xsl:otherwise>    
                         </xsl:choose>
                     </xsl:element>
@@ -134,11 +134,11 @@
                     <xsl:element name="img">
                         <xsl:attribute name="title">Commits since Latest Release</xsl:attribute>
                         <xsl:choose>
-                            <xsl:when test="$releases != 'true'">
-                                <xsl:attribute name="src">https://img.shields.io/badge/----red.svg</xsl:attribute>
+                            <xsl:when test="$releases != 'false'">
+                                <xsl:attribute name="src">https://img.shields.io/github/commits-since/<xsl:value-of select="$p"/>/latest.svg?maxAge=2592000&amp;label=</xsl:attribute>
                             </xsl:when>
                             <xsl:otherwise>
-                                <xsl:attribute name="src">https://img.shields.io/github/commits-since/<xsl:value-of select="$p"/>/latest.svg?maxAge=2592000&amp;label=</xsl:attribute>
+                                <xsl:attribute name="src">https://img.shields.io/badge/----red.svg</xsl:attribute>
                             </xsl:otherwise>    
                         </xsl:choose>
                     </xsl:element>

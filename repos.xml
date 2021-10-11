@@ -88,11 +88,14 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>java</topic>
       <topic>ansi</topic>
+      <topic>java</topic>
       <topic>tui</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -187,9 +190,12 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>android</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>2</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -284,9 +290,12 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>android</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -359,14 +368,14 @@
     <releases_url>https://api.github.com/repos/RadAd/CmdFileUtils/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/CmdFileUtils/deployments</deployments_url>
     <created_at>2016-12-13T23:40:21Z</created_at>
-    <updated_at>2021-06-13T08:42:02Z</updated_at>
-    <pushed_at>2021-06-28T05:13:45Z</pushed_at>
+    <updated_at>2021-08-19T05:09:39Z</updated_at>
+    <pushed_at>2021-08-19T05:09:36Z</pushed_at>
     <git_url>git://github.com/RadAd/CmdFileUtils.git</git_url>
     <ssh_url>git@github.com:RadAd/CmdFileUtils.git</ssh_url>
     <clone_url>https://github.com/RadAd/CmdFileUtils.git</clone_url>
     <svn_url>https://github.com/RadAd/CmdFileUtils</svn_url>
     <homepage/>
-    <size>176</size>
+    <size>192</size>
     <stargazers_count>1</stargazers_count>
     <watchers_count>1</watchers_count>
     <language>C++</language>
@@ -381,12 +390,15 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>console</topic>
       <topic>appveyor</topic>
+      <topic>console</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -481,13 +493,16 @@
     <disabled>false</disabled>
     <open_issues_count>2</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>console</topic>
       <topic>appveyor</topic>
+      <topic>console</topic>
       <topic>text-editor</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>2</open_issues>
     <watchers>4</watchers>
@@ -582,12 +597,15 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>console</topic>
       <topic>appveyor</topic>
+      <topic>console</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -682,12 +700,15 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>console</topic>
       <topic>appveyor</topic>
+      <topic>console</topic>
       <topic>virtual-desktops</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -767,7 +788,7 @@
     <clone_url>https://github.com/RadAd/DesktopsMenu.git</clone_url>
     <svn_url>https://github.com/RadAd/DesktopsMenu</svn_url>
     <homepage></homepage>
-    <size>32</size>
+    <size>34</size>
     <stargazers_count>0</stargazers_count>
     <watchers_count>0</watchers_count>
     <language>C++</language>
@@ -782,13 +803,16 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>gui</topic>
       <topic>appveyor</topic>
+      <topic>gui</topic>
       <topic>gui-application</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -883,9 +907,12 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>osdev</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -986,8 +1013,11 @@
       <url/>
       <node_id>MDc6TGljZW5zZTA=</node_id>
     </license>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>2</watchers>
@@ -1082,10 +1112,13 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>1</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -1165,7 +1198,7 @@
     <clone_url>https://github.com/RadAd/MiniExplorer.git</clone_url>
     <svn_url>https://github.com/RadAd/MiniExplorer</svn_url>
     <homepage></homepage>
-    <size>741</size>
+    <size>742</size>
     <stargazers_count>0</stargazers_count>
     <watchers_count>0</watchers_count>
     <language>C++</language>
@@ -1180,12 +1213,15 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>gui</topic>
       <topic>appveyor</topic>
+      <topic>gui</topic>
       <topic>gui-application</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -1280,12 +1316,15 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>console</topic>
       <topic>appveyor</topic>
+      <topic>console</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -1358,16 +1397,16 @@
     <releases_url>https://api.github.com/repos/RadAd/Notepad/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/Notepad/deployments</deployments_url>
     <created_at>2017-07-20T05:17:15Z</created_at>
-    <updated_at>2021-08-13T06:49:05Z</updated_at>
+    <updated_at>2021-09-01T20:33:01Z</updated_at>
     <pushed_at>2021-08-13T06:49:02Z</pushed_at>
     <git_url>git://github.com/RadAd/Notepad.git</git_url>
     <ssh_url>git@github.com:RadAd/Notepad.git</ssh_url>
     <clone_url>https://github.com/RadAd/Notepad.git</clone_url>
     <svn_url>https://github.com/RadAd/Notepad</svn_url>
     <homepage></homepage>
-    <size>212</size>
-    <stargazers_count>5</stargazers_count>
-    <watchers_count>5</watchers_count>
+    <size>214</size>
+    <stargazers_count>4</stargazers_count>
+    <watchers_count>4</watchers_count>
     <language>C++</language>
     <has_issues>true</has_issues>
     <has_projects>false</has_projects>
@@ -1380,17 +1419,20 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>gui</topic>
       <topic>appveyor</topic>
+      <topic>gui</topic>
       <topic>gui-application</topic>
       <topic>text-editor</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
-    <watchers>5</watchers>
+    <watchers>4</watchers>
     <default_branch>master</default_branch>
   </repo>
   <repo>
@@ -1482,9 +1524,12 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>android</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -1579,8 +1624,11 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -1653,14 +1701,14 @@
     <releases_url>https://api.github.com/repos/RadAd/RadAd.github.io/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadAd.github.io/deployments</deployments_url>
     <created_at>2016-07-18T04:20:25Z</created_at>
-    <updated_at>2021-08-13T06:35:19Z</updated_at>
-    <pushed_at>2021-08-13T06:35:16Z</pushed_at>
+    <updated_at>2021-08-13T06:57:02Z</updated_at>
+    <pushed_at>2021-08-13T06:56:59Z</pushed_at>
     <git_url>git://github.com/RadAd/RadAd.github.io.git</git_url>
     <ssh_url>git@github.com:RadAd/RadAd.github.io.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadAd.github.io.git</clone_url>
     <svn_url>https://github.com/RadAd/RadAd.github.io</svn_url>
     <homepage>https://RadAd.github.io</homepage>
-    <size>593</size>
+    <size>646</size>
     <stargazers_count>0</stargazers_count>
     <watchers_count>0</watchers_count>
     <language>HTML</language>
@@ -1675,8 +1723,11 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -1771,9 +1822,12 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>library</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>1</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -1868,11 +1922,14 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>win32</topic>
       <topic>deskband</topic>
+      <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -1967,14 +2024,17 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>gui</topic>
       <topic>appveyor</topic>
+      <topic>gui</topic>
       <topic>gui-application</topic>
       <topic>mci</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -2069,10 +2129,13 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>java</topic>
       <topic>emulator</topic>
+      <topic>java</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -2145,7 +2208,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadCheckedView/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadCheckedView/deployments</deployments_url>
     <created_at>2014-01-30T07:08:21Z</created_at>
-    <updated_at>2019-06-06T07:48:07Z</updated_at>
+    <updated_at>2021-09-29T10:16:49Z</updated_at>
     <pushed_at>2014-01-31T04:00:06Z</pushed_at>
     <git_url>git://github.com/RadAd/RadCheckedView.git</git_url>
     <ssh_url>git@github.com:RadAd/RadCheckedView.git</ssh_url>
@@ -2153,8 +2216,8 @@
     <svn_url>https://github.com/RadAd/RadCheckedView</svn_url>
     <homepage></homepage>
     <size>164</size>
-    <stargazers_count>1</stargazers_count>
-    <watchers_count>1</watchers_count>
+    <stargazers_count>2</stargazers_count>
+    <watchers_count>2</watchers_count>
     <language>Java</language>
     <has_issues>true</has_issues>
     <has_projects>true</has_projects>
@@ -2167,12 +2230,15 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>android-library</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
-    <watchers>1</watchers>
+    <watchers>2</watchers>
     <default_branch>master</default_branch>
   </repo>
   <repo>
@@ -2242,13 +2308,13 @@
     <releases_url>https://api.github.com/repos/RadAd/RadConsole/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadConsole/deployments</deployments_url>
     <created_at>2012-10-11T09:56:40Z</created_at>
-    <updated_at>2021-07-01T04:18:25Z</updated_at>
+    <updated_at>2021-10-02T01:12:45Z</updated_at>
     <pushed_at>2020-01-20T23:33:48Z</pushed_at>
     <git_url>git://github.com/RadAd/RadConsole.git</git_url>
     <ssh_url>git@github.com:RadAd/RadConsole.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadConsole.git</clone_url>
     <svn_url>https://github.com/RadAd/RadConsole</svn_url>
-    <homepage></homepage>
+    <homepage>https://markdown.is/gh/radad/radconsole?branch=master</homepage>
     <size>2914</size>
     <stargazers_count>3</stargazers_count>
     <watchers_count>3</watchers_count>
@@ -2264,10 +2330,13 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>java</topic>
       <topic>console</topic>
+      <topic>java</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>2</forks>
     <open_issues>0</open_issues>
     <watchers>3</watchers>
@@ -2362,14 +2431,17 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
+      <topic>atl</topic>
       <topic>gui</topic>
       <topic>gui-application</topic>
-      <topic>atl</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
       <topic>wtl</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -2464,13 +2536,16 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>gui</topic>
       <topic>appveyor</topic>
+      <topic>gui</topic>
       <topic>gui-application</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>3</watchers>
@@ -2565,13 +2640,16 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>gui</topic>
       <topic>appveyor</topic>
+      <topic>gui</topic>
       <topic>gui-application</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>2</watchers>
@@ -2644,7 +2722,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadImgViewer2/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadImgViewer2/deployments</deployments_url>
     <created_at>2021-07-05T02:31:03Z</created_at>
-    <updated_at>2021-07-05T02:52:32Z</updated_at>
+    <updated_at>2021-08-24T05:14:43Z</updated_at>
     <pushed_at>2021-07-05T02:54:16Z</pushed_at>
     <git_url>git://github.com/RadAd/RadImgViewer2.git</git_url>
     <ssh_url>git@github.com:RadAd/RadImgViewer2.git</ssh_url>
@@ -2666,15 +2744,18 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>gui</topic>
       <topic>appveyor</topic>
+      <topic>gui</topic>
       <topic>gui-application</topic>
-      <topic>window</topic>
-      <topic>win32</topic>
       <topic>wic</topic>
+      <topic>win32</topic>
+      <topic>windows</topic>
       <topic>wtl</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -2769,12 +2850,15 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
       <topic>gui</topic>
       <topic>gui-application</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -2854,7 +2938,7 @@
     <clone_url>https://github.com/RadAd/RadJoyKeyX.git</clone_url>
     <svn_url>https://github.com/RadAd/RadJoyKeyX</svn_url>
     <homepage></homepage>
-    <size>64</size>
+    <size>66</size>
     <stargazers_count>0</stargazers_count>
     <watchers_count>0</watchers_count>
     <language>C++</language>
@@ -2869,14 +2953,17 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>gui</topic>
       <topic>appveyor</topic>
+      <topic>gui</topic>
       <topic>gui-application</topic>
-      <topic>xinput</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
+      <topic>xinput</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -2971,11 +3058,14 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>win32</topic>
       <topic>deskband</topic>
+      <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -3048,14 +3138,14 @@
     <releases_url>https://api.github.com/repos/RadAd/RadLine/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadLine/deployments</deployments_url>
     <created_at>2019-06-06T01:07:05Z</created_at>
-    <updated_at>2021-08-13T05:56:17Z</updated_at>
-    <pushed_at>2021-08-13T05:56:15Z</pushed_at>
+    <updated_at>2021-10-02T01:14:14Z</updated_at>
+    <pushed_at>2021-08-24T01:06:25Z</pushed_at>
     <git_url>git://github.com/RadAd/RadLine.git</git_url>
     <ssh_url>git@github.com:RadAd/RadLine.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadLine.git</clone_url>
     <svn_url>https://github.com/RadAd/RadLine</svn_url>
-    <homepage></homepage>
-    <size>386</size>
+    <homepage>https://markdown.is/gh/RadAd/RadLine?branch=master</homepage>
+    <size>409</size>
     <stargazers_count>1</stargazers_count>
     <watchers_count>1</watchers_count>
     <language>C++</language>
@@ -3070,13 +3160,16 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>console</topic>
       <topic>appveyor</topic>
       <topic>cmd</topic>
+      <topic>console</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -3171,11 +3264,14 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>android</topic>
-      <topic>text-editor</topic>
       <topic>android-app</topic>
+      <topic>text-editor</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>1</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -3248,39 +3344,42 @@
     <releases_url>https://api.github.com/repos/RadAd/RadNotepadMFC/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadNotepadMFC/deployments</deployments_url>
     <created_at>2017-08-04T04:00:56Z</created_at>
-    <updated_at>2021-08-13T06:56:16Z</updated_at>
+    <updated_at>2021-10-05T09:58:58Z</updated_at>
     <pushed_at>2021-08-13T06:56:13Z</pushed_at>
     <git_url>git://github.com/RadAd/RadNotepadMFC.git</git_url>
     <ssh_url>git@github.com:RadAd/RadNotepadMFC.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadNotepadMFC.git</clone_url>
     <svn_url>https://github.com/RadAd/RadNotepadMFC</svn_url>
     <homepage></homepage>
-    <size>1251</size>
+    <size>1253</size>
     <stargazers_count>4</stargazers_count>
     <watchers_count>4</watchers_count>
     <language>C++</language>
     <has_issues>true</has_issues>
-    <has_projects>true</has_projects>
+    <has_projects>false</has_projects>
     <has_downloads>true</has_downloads>
-    <has_wiki>true</has_wiki>
+    <has_wiki>false</has_wiki>
     <has_pages>false</has_pages>
-    <forks_count>4</forks_count>
+    <forks_count>3</forks_count>
     <mirror_url/>
     <archived>false</archived>
     <disabled>false</disabled>
-    <open_issues_count>1</open_issues_count>
+    <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>gui</topic>
       <topic>appveyor</topic>
+      <topic>gui</topic>
       <topic>gui-application</topic>
-      <topic>text-editor</topic>
-      <topic>scintilla</topic>
       <topic>mfc</topic>
+      <topic>scintilla</topic>
+      <topic>text-editor</topic>
+      <topic>windows</topic>
     </topics>
-    <forks>4</forks>
-    <open_issues>1</open_issues>
+    <visibility>public</visibility>
+    <forks>3</forks>
+    <open_issues>0</open_issues>
     <watchers>4</watchers>
     <default_branch>master</default_branch>
   </repo>
@@ -3373,11 +3472,14 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>osdev</topic>
-      <topic>toy-project</topic>
       <topic>realmode</topic>
+      <topic>toy-project</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -3450,7 +3552,7 @@
     <releases_url>https://api.github.com/repos/RadAd/RadPreferences/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadPreferences/deployments</deployments_url>
     <created_at>2015-10-10T00:25:08Z</created_at>
-    <updated_at>2019-06-06T07:48:22Z</updated_at>
+    <updated_at>2021-09-29T10:17:42Z</updated_at>
     <pushed_at>2015-10-14T01:49:37Z</pushed_at>
     <git_url>git://github.com/RadAd/RadPreferences.git</git_url>
     <ssh_url>git@github.com:RadAd/RadPreferences.git</ssh_url>
@@ -3458,8 +3560,8 @@
     <svn_url>https://github.com/RadAd/RadPreferences</svn_url>
     <homepage/>
     <size>148</size>
-    <stargazers_count>0</stargazers_count>
-    <watchers_count>0</watchers_count>
+    <stargazers_count>1</stargazers_count>
+    <watchers_count>1</watchers_count>
     <language>Java</language>
     <has_issues>true</has_issues>
     <has_projects>true</has_projects>
@@ -3472,12 +3574,15 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>android-library</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
-    <watchers>0</watchers>
+    <watchers>1</watchers>
     <default_branch>master</default_branch>
   </repo>
   <repo>
@@ -3569,10 +3674,13 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -3645,37 +3753,49 @@
     <releases_url>https://api.github.com/repos/RadAd/RadTerminal/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadTerminal/deployments</deployments_url>
     <created_at>2019-05-23T00:22:22Z</created_at>
-    <updated_at>2021-08-13T06:56:31Z</updated_at>
-    <pushed_at>2021-08-13T06:56:29Z</pushed_at>
+    <updated_at>2021-10-08T09:10:08Z</updated_at>
+    <pushed_at>2021-10-08T09:10:05Z</pushed_at>
     <git_url>git://github.com/RadAd/RadTerminal.git</git_url>
     <ssh_url>git@github.com:RadAd/RadTerminal.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadTerminal.git</clone_url>
     <svn_url>https://github.com/RadAd/RadTerminal</svn_url>
-    <homepage></homepage>
-    <size>100</size>
+    <homepage>https://markdown.is/gh/RadAd/RadTerminal</homepage>
+    <size>116</size>
     <stargazers_count>6</stargazers_count>
     <watchers_count>6</watchers_count>
     <language>C++</language>
     <has_issues>true</has_issues>
-    <has_projects>true</has_projects>
+    <has_projects>false</has_projects>
     <has_downloads>true</has_downloads>
-    <has_wiki>true</has_wiki>
+    <has_wiki>false</has_wiki>
     <has_pages>false</has_pages>
     <forks_count>0</forks_count>
     <mirror_url/>
     <archived>false</archived>
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
-    <license/>
+    <license>
+      <key>mit</key>
+      <name>MIT License</name>
+      <spdx_id>MIT</spdx_id>
+      <url>https://api.github.com/licenses/mit</url>
+      <node_id>MDc6TGljZW5zZTEz</node_id>
+    </license>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>gui</topic>
-      <topic>terminal</topic>
       <topic>appveyor</topic>
+      <topic>gui</topic>
       <topic>gui-application</topic>
-      <topic>win32</topic>
+      <topic>libtsm</topic>
+      <topic>pseudo-terminal</topic>
+      <topic>pseudoterminal</topic>
+      <topic>terminal</topic>
       <topic>vt100</topic>
+      <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>6</watchers>
@@ -3770,9 +3890,12 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>android</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>2</watchers>
@@ -3867,9 +3990,12 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>visual-studio</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -3964,12 +4090,15 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
       <topic>appveyor</topic>
-      <topic>win32</topic>
       <topic>deskband</topic>
+      <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>3</watchers>
@@ -4064,11 +4193,14 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>library</topic>
       <topic>win32</topic>
       <topic>windows-library</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>2</watchers>
@@ -4163,11 +4295,14 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
       <topic>appveyor</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -4262,10 +4397,13 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>windows</topic>
       <topic>wsh</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -4360,12 +4498,15 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
-      <topic>console</topic>
       <topic>appveyor</topic>
+      <topic>console</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -4460,8 +4601,11 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -4556,11 +4700,14 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
-      <topic>windows</topic>
       <topic>console</topic>
       <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
@@ -4655,10 +4802,13 @@
     <disabled>false</disabled>
     <open_issues_count>2</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>java</topic>
       <topic>java-library</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>2</open_issues>
     <watchers>0</watchers>
@@ -4753,9 +4903,12 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>library</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>2</watchers>
@@ -4850,11 +5003,14 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>java</topic>
-      <topic>tui</topic>
       <topic>java-library</topic>
+      <topic>tui</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -4949,10 +5105,13 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>true</is_template>
     <topics>
       <topic>template</topic>
       <topic>visual-studio</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>
@@ -5047,9 +5206,12 @@
     <disabled>false</disabled>
     <open_issues_count>0</open_issues_count>
     <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
     <topics>
       <topic>android</topic>
     </topics>
+    <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>0</watchers>

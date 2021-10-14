@@ -1,0 +1,13 @@
+name: update
+on:
+  schedule:
+    - cron:  '* * * * 0'
+jobs:
+  update:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: echo %CD%
+      - run: where curl
+      - run: where cscript
+      - run: where msxsl

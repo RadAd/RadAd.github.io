@@ -1,7 +1,5 @@
 name: update
-on:
-  schedule:
-    - cron:  '* * * * 0'
+on: [workflow_dispatch]
 jobs:
   update:
     runs-on: windows-latest

@@ -10,4 +10,6 @@ jobs:
       - run: where curl
         shell: cmd
       - run: where cscript
+        shell: cmd
       - run: where msxsl
+        shell: cmd

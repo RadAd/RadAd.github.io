@@ -6,6 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo %CD%
+        shell: cmd
       - run: where curl
+        shell: cmd
       - run: where cscript
       - run: where msxsl

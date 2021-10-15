@@ -11,6 +11,10 @@ jobs:
         shell: cmd
       - run: tools\msxsl repos.xml repos-summary.xsl > repos-summary.html
         shell: cmd
+      - run: git config --global user.name 'Update Action'
+        shell: cmd
+      - run: git config --global user.email 'update.action@gmail.com'
+        shell: cmd
       - run: 'git commit -am "Updated"'
         shell: cmd
       - run: git push

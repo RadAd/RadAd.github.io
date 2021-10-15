@@ -9,7 +9,7 @@ jobs:
         shell: cmd
       - run: cscript /nologo tools\json2xml.js repos repos.json > repos.xml
         shell: cmd
-      - run: msxsl repos.xml repos-summary.xsl > repos-summary.html
+      - run: tools\msxsl repos.xml repos-summary.xsl > repos-summary.html
         shell: cmd
       - run: git diff
         shell: cmd

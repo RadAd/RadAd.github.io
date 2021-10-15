@@ -11,5 +11,7 @@ jobs:
         shell: cmd
       - run: tools\msxsl repos.xml repos-summary.xsl > repos-summary.html
         shell: cmd
-      - run: git diff
+      - run: 'git commit -am "Updated"'
+        shell: cmd
+      - run: git push
         shell: cmd

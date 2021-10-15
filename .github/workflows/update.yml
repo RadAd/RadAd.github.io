@@ -5,13 +5,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
-      - run: echo %CD%
+      - run: curl -ks -H "Accept: application/vnd.github.mercy-preview+json" "https://api.github.com/users/RadAd/repos?per_page=100&sort=name&direction=asc" > repos.json
         shell: cmd
-      - run: choco install msxml6.sp1
-        shell: cmd
-      - run: where curl
-        shell: cmd
-      - run: where cscript
-        shell: cmd
-      - run: where msxsl
+      - run: msxsl
         shell: cmd

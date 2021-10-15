@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: echo %CD%
         shell: cmd
-      - run: choco install msxml4.sp3
+      - run: choco install msxml6.sp1
         shell: cmd
       - run: where curl
         shell: cmd

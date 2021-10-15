@@ -5,7 +5,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
-      - run: curl -ks -H "Accept: application/vnd.github.mercy-preview+json" "https://api.github.com/users/RadAd/repos?per_page=100&sort=name&direction=asc" > repos.json
+      - run: 'curl -ks -H "Accept: application/vnd.github.mercy-preview+json" "https://api.github.com/users/RadAd/repos?per_page=100&sort=name&direction=asc" > repos.json'
         shell: cmd
       - run: msxsl
         shell: cmd

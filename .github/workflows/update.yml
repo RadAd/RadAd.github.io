@@ -7,5 +7,9 @@ jobs:
       - uses: actions/checkout@v2
       - run: 'curl -ks -H "Accept: application/vnd.github.mercy-preview+json" "https://api.github.com/users/RadAd/repos?per_page=100&sort=name&direction=asc" > repos.json'
         shell: cmd
-      - run: msxsl
+      - run: cscript /nologo tools\json2xml.js repos repos.json > repos.xml
+        shell: cmd
+      - run: msxsl repos.xml repos-summary.xsl > repos-summary.html
+        shell: cmd
+      - run: git diff
         shell: cmd

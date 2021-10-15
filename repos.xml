@@ -1701,14 +1701,14 @@
     <releases_url>https://api.github.com/repos/RadAd/RadAd.github.io/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadAd.github.io/deployments</deployments_url>
     <created_at>2016-07-18T04:20:25Z</created_at>
-    <updated_at>2021-10-11T07:19:16Z</updated_at>
-    <pushed_at>2021-10-11T07:19:13Z</pushed_at>
+    <updated_at>2021-10-15T04:02:11Z</updated_at>
+    <pushed_at>2021-10-15T04:02:08Z</pushed_at>
     <git_url>git://github.com/RadAd/RadAd.github.io.git</git_url>
     <ssh_url>git@github.com:RadAd/RadAd.github.io.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadAd.github.io.git</clone_url>
     <svn_url>https://github.com/RadAd/RadAd.github.io</svn_url>
     <homepage>https://RadAd.github.io</homepage>
-    <size>698</size>
+    <size>717</size>
     <stargazers_count>0</stargazers_count>
     <watchers_count>0</watchers_count>
     <language>HTML</language>

@@ -17,6 +17,7 @@
         <Repo name="Radboy" icon="res/game-boy-icon-53-32x32.png" releases="false"/>
         <Repo name="RadConsole" shippable="5811348c133af40e00ffdfba"/>
         <Repo name="RadImgViewer" icon="RadImgViewer/res/imgviewer.ico"/>
+        <Repo name="RadImgViewer2" icon="res/imgviewer.ico"/>
         <Repo name="RadFloatDB" icon="RadFloatDB/RadFloatDB.ico" releases="false"/>
         <Repo name="RadGui" icon="RadGui.ico"/>
         <Repo name="RadJoyKey" icon="RadJoyKey.ico"/>

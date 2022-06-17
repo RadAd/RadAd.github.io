@@ -2,6 +2,14 @@
 ---
 @import "{{ site.theme }}";
 
+section{
+    max-width: 100%;
+}
+
+#header nav{
+    max-width: 100%;
+}
+
 .wrapper{
     max-width: 100%;
 }

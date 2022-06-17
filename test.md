@@ -1,11 +1,24 @@
 # Windows GUI
 
 ## Part 1
-{% assign repositories = site.github.public_repositories | where_exp: "repository", "repository.topics contains 'windows' and repository.topics contains 'gui'" %}
+{% assign repositories1 = site.github.public_repositories | where_exp: "repository", "repository.topics contains 'windows'" %}
+{% assign repositories = repositories1 | where_exp: "repository", "repository.topics contains 'gui'" %}
 {% for repository in repositories -%}
 * {{ repository.name }}
 {% endfor %}
 
+|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+| Second body     |            |                 |                |
+| 2 line          |            |                 |                |
+|=================+============+=================+================|
+| Footer row      |            |                 |                |
+|-----------------+------------+-----------------+----------------|
 
 ## Part 2
 |-------|--------|---------|

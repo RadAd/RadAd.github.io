@@ -2,15 +2,22 @@
 ---
 @import "{{ site.theme }}";
 
-section{
+section {
+    max-width: 100%;
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+}
+
+section #title {
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+}
+
+#header nav {
     max-width: 100%;
 }
 
-#header nav{
-    max-width: 100%;
-}
-
-.wrapper{
+.wrapper {
     max-width: 100%;
 }
 

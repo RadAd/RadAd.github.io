@@ -3,7 +3,7 @@ no_release: [ "RadFloatDB", "MiniUtils", "Shortcut", "RadAudioMeterDB", "RadKeyL
 downloads_img: "![downloads](https://img.shields.io/github/downloads/[repo]/total.svg?maxAge=2592000&label=)"
 release_img: "![release](https://img.shields.io/github/release/[repo].svg?maxAge=2592000&label=)"
 commits_img: "![commits-since](https://img.shields.io/github/commits-since/[repo]/latest.svg?maxAge=2592000&label=)"
-appveyor_img: "![appveyor](https://img.shields.io/appveyor/ci/{{ repository.full_name }}.svg?maxAge=2592000&label=)"
+appveyor_img: "![appveyor](https://img.shields.io/appveyor/ci/[repo].svg?maxAge=2592000&label=)"
 none_img: "![](https://img.shields.io/badge/----red.svg)"
 ---
 ## [Windows GUI](https://github.com/RadAd?tab=repositories&q=%23windows+%23gui)
@@ -13,9 +13,9 @@ none_img: "![](https://img.shields.io/badge/----red.svg)"
 {% for repository in repositories -%}
 {% if page.no_release contains repository.name -%}
 | [{{ repository.name }}]({{ repository.html_url }}) | {{ page.none_img }} | {{ page.none_img }} | {{ page.none_img }} | {% if repository.topics contains 'appveyor' %}{{ page.appveyor_img | replace: "[repo]", repository.full_name }}{% endif %} | {{ repository.description }} |
-{% else %}
-{% endif %}
+{% else -%}
 | [{{ repository.name }}]({{ repository.html_url }}) | {{ page.downloads_img | replace: "[repo]", repository.full_name }} | {{ page.release_img | replace: "[repo]", repository.full_name }} | {{ page.commits_img | replace: "[repo]", repository.full_name }} | {% if repository.topics contains 'appveyor' %}{{ page.appveyor_img | replace: "[repo]", repository.full_name }}{% endif %} | {{ repository.description }} |
+{% endif -%}
 {% endfor %}
 
 ## [Windows Console](https://github.com/RadAd?tab=repositories&q=%23windows+%23console)

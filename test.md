@@ -13,7 +13,7 @@
 {% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'windows'" %}
 {% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'gui'" %}
 {% for repository in repositories -%}
-| [{{ repository.name }}]({{ repository.html_url }}) | ![appveyor](https://img.shields.io/appveyor/ci/{{ repository.full_name }}.svg?maxAge=2592000&label=) | {{ repository.description }} |
+| [{{ repository.name }}]({{ repository.html_url }}) | {% if repository.topics contains 'appveyor' %}![appveyor](https://img.shields.io/appveyor/ci/{{ repository.full_name }}.svg?maxAge=2592000&label=){% endif %} | {{ repository.description }} |
 {% endfor %}
 
 ## Part 3

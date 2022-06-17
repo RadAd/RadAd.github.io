@@ -1,3 +1,2 @@
-theme: jekyll-theme-midnight
-markdown: kramdown
+remote_theme: RadAd/midnight
 title: RadAd

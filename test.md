@@ -1,5 +1,5 @@
 ---
-no_release: [ "RadFloatDB", "MiniUtils", "Shortcut", "RadAudioMeterDB", "RadKeyLockDB", "RadBoy", "SyntaxHighlighter", "TextUI" ]
+no_release: [ "RadFloatDB", "MiniUtils", "Shortcut", "RadAudioMeterDB", "RadKeyLockDB", "Radboy", "SyntaxHighlighter", "TextUI" ]
 ---
 ## Windows GUI
 {% assign repositories = site.github.public_repositories %}

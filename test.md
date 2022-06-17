@@ -48,7 +48,7 @@ none_img: "![](https://img.shields.io/badge/----red.svg)"
 {% if page.no_release contains repository.name -%}
 | [{{ repository.name }}]({{ repository.html_url }}) | {{ page.none_img }} | {{ page.none_img }} | {{ page.none_img }} | {{ repository.description }} |
 {% else -%}
-| [{{ repository.name }}]({{ repository.html_url }}) | {{ page.downloads_img | replace: "[repo]", repository.full_name }} | {{ page.release_img | replace: "[repo]", repository.full_name }} | {{ page.commits_img | replace: "[repo]", repository.full_name }} | {{ repository.description }} |
+| [{{ repository.name }}]({{ repository.html_url }}) | {{ page.downloads_img | replace: "[repo]", repository.full_name }} | {{ page.release_img | replace: "[repo]", repository.full_name }} | {{ page.commits_img | replace: "[repo]", repository.full_name }} | {% if repository.topics contains 'appveyor' %}{{ page.appveyor_img | replace: "[repo]", repository.full_name }}{% endif %} | {{ repository.description }} |
 {% endif -%}
 {% endfor %}
 
@@ -56,7 +56,8 @@ none_img: "![](https://img.shields.io/badge/----red.svg)"
 {% assign repositories = site.github.public_repositories | where_exp: "repository", "repository.topics contains 'android'" %}
 {% for repository in repositories -%}
 {% if page.no_release contains repository.name -%}
-| [{{ repository.name }}]({{ repository.html_url }}) | {{ page.none_img }} | {{ page.none_img }} | {{ page.none_img }} | {{ repository.description }} |
+| [{{ repository.name }}]({{ repository.html_url }}) | {{ page.none_img }} | {{ page.none_img }} | {{ page.none_img }} | {% if repository.topics contains 'appveyor' %}{{ page.appveyor_img | replace: "[repo]", repository.full_name }}{% endif %} | {{ repository.description }} |
 {% else -%}
 | [{{ repository.name }}]({{ repository.html_url }}) | {{ page.downloads_img | replace: "[repo]", repository.full_name }} | {{ page.release_img | replace: "[repo]", repository.full_name }} | {{ page.commits_img | replace: "[repo]", repository.full_name }} | {{ repository.description }} |
+{% endif -%}
 {% endfor %}

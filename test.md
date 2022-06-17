@@ -55,6 +55,7 @@ none_img: "![](https://img.shields.io/badge/----red.svg)"
 ## [Android](https://github.com/RadAd?tab=repositories&q=%23android)
 {% assign repositories = site.github.public_repositories | where_exp: "repository", "repository.topics contains 'android'" %}
 {% for repository in repositories -%}
+{% if page.no_release contains repository.name -%}
 | [{{ repository.name }}]({{ repository.html_url }}) | {{ page.none_img }} | {{ page.none_img }} | {{ page.none_img }} | {{ repository.description }} |
 {% else -%}
 | [{{ repository.name }}]({{ repository.html_url }}) | {{ page.downloads_img | replace: "[repo]", repository.full_name }} | {{ page.release_img | replace: "[repo]", repository.full_name }} | {{ page.commits_img | replace: "[repo]", repository.full_name }} | {{ repository.description }} |

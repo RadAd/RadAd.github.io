@@ -8,20 +8,15 @@
 | [{{ repository.name }}]({{ repository.html_url }}) | {{ repository.description }} |
 {% endfor %}
 
-|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
-
 ## Part 2
+{% assign repositories = site.github.public_repositories %}
+{% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'windows'" %}
+{% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'gui'" %}
+{% for repository in repositories -%}
+| [{{ repository.name }}]({{ repository.html_url }}) | ![appveyor](https://img.shields.io/appveyor/ci/{{ repository.full_name }}.svg?maxAge=2592000&label=) | {{ repository.description }} |
+{% endfor %}
+
+## Part 3
 |-----------------+------------+-----------------+----------------|
 | Default aligned |Left aligned| Center aligned  | Right aligned  |
 |-----------------|------------|-----------------|----------------|

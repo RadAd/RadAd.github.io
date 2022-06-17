@@ -1,10 +1,11 @@
 # Windows GUI
 
 ## Part 1
-{% assign repositories = site.github.public_repositories | where_exp: "repository", "repository.topics contains 'windows'" %}
+{% assign repositories = site.github.public_repositories %}
+{% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'windows'" %}
 {% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'gui'" %}
 {% for repository in repositories -%}
-* {{ repository.name }}
+| {{ repository.name }} |
 {% endfor %}
 
 |-----------------+------------+-----------------+----------------|

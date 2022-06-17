@@ -1,6 +1,6 @@
 # Windows GUI
 
-{% for repository in site.github.public_repositories | where repository.topics contains 'windows' and repository.topics contains 'gui'%}* {{ repository.name }}
+{% for repository in site.github.public_repositories | where_exp: "repository", "repository.topics contains 'windows' and repository.topics contains 'gui'" %}* {{ repository.name }}
 {% endfor %}
 
 

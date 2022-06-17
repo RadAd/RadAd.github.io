@@ -1,8 +1,8 @@
 ---
 no_release: [ "RadFloatDB", "MiniUtils", "Shortcut", "RadAudioMeterDB", "RadKeyLockDB", "Radboy", "SyntaxHighlighter", "TextUI" ]
 downloads_img: "![downloads](https://img.shields.io/github/downloads/[repo]/total.svg?maxAge=2592000&label=)"
-release_img: "![release](https://img.shields.io/github/release/[repo].svg?maxAge=2592000&label=)"
-commits_img: "![commits-since](https://img.shields.io/github/commits-since/[repo]/latest.svg?maxAge=2592000&label=)"
+release_img: "[![release](https://img.shields.io/github/release/[repo].svg?maxAge=2592000&label=)](https://github.com/[repo]/releases/latest)"
+commits_img: "[![commits-since](https://img.shields.io/github/commits-since/[repo]/latest.svg?maxAge=2592000&label=)](https://github.com/[repo]/commits/master)"
 appveyor_img: "[![appveyor](https://img.shields.io/appveyor/ci/[repo].svg?maxAge=2592000&label=)](https://ci.appveyor.com/project/[repo])"
 none_img: "![](https://img.shields.io/badge/----red.svg)"
 ---

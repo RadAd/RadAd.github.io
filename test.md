@@ -1,13 +1,14 @@
 # Windows GUI
 
 ## Part 1
-{% assign repositories = site.github.public_repositories | where_exp: "repository", "repository.topics contains 'windows'" %}
+{% assign repositories = site.github.public_repositories | where_exp: "repository", "repository.topics contains 'windows' and repository.topics contains 'gui'" %}
 {% for repository in repositories -%}
 * {{ repository.name }}
 {% endfor %}
 
 
 ## Part 2
+|-------|--------|---------|
 | Priority apples | Second priority | Third priority |
 |-------|--------|---------|
 | ambrosia | gala | red delicious |

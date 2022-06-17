@@ -2,6 +2,10 @@
 ---
 @import "{{ site.theme }}";
 
+.wrapper{
+    max-width: 100%;
+}
+
 td {
   padding: 0px;
   border: 1px solid #434343;

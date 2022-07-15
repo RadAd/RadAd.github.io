@@ -1,3 +1,4 @@
 remote_theme: RadAd/midnight
 title: RadAd
-github.repository_url: https://github.com/RadAd
+github:
+  repository_url: https://github.com/RadAd

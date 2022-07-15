@@ -3,8 +3,8 @@ icons:
   RadMeter: "test"
   RadGui: "test"
 ---
-{{ icons.RadNotepadMFC }}
-{{ icons.RadMeter }}
+{{ page.icons.RadNotepadMFC }}
+{{ page.icons.RadMeter }}
 
 {% for repository in site.github.public_repositories -%}
 {{ repository }}

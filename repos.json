@@ -90,6 +90,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "ansi",
       "java",
@@ -193,6 +194,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "android"
     ],
@@ -293,6 +295,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "android"
     ],
@@ -393,6 +396,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "console",
@@ -496,6 +500,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "autorun",
       "cmd",
@@ -598,6 +603,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "console",
@@ -702,6 +708,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "console",
@@ -807,6 +814,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "console",
@@ -910,6 +918,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "gui",
@@ -1014,6 +1023,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "osdev"
     ],
@@ -1120,6 +1130,7 @@
     },
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
 
     ],
@@ -1220,6 +1231,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "win32",
       "windows"
@@ -1297,17 +1309,17 @@
     "releases_url": "https://api.github.com/repos/RadAd/midnight/releases{/id}",
     "deployments_url": "https://api.github.com/repos/RadAd/midnight/deployments",
     "created_at": "2022-06-17T08:34:54Z",
-    "updated_at": "2022-06-09T06:39:53Z",
-    "pushed_at": "2022-03-09T19:17:24Z",
+    "updated_at": "2022-06-17T12:41:36Z",
+    "pushed_at": "2022-06-17T13:21:53Z",
     "git_url": "git://github.com/RadAd/midnight.git",
     "ssh_url": "git@github.com:RadAd/midnight.git",
     "clone_url": "https://github.com/RadAd/midnight.git",
     "svn_url": "https://github.com/RadAd/midnight",
     "homepage": "https://pages-themes.github.io/midnight/",
-    "size": 2717,
+    "size": 2732,
     "stargazers_count": 0,
     "watchers_count": 0,
-    "language": null,
+    "language": "JavaScript",
     "has_issues": false,
     "has_projects": true,
     "has_downloads": false,
@@ -1327,6 +1339,7 @@
     },
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
 
     ],
@@ -1427,6 +1440,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "gui",
@@ -1506,7 +1520,7 @@
     "releases_url": "https://api.github.com/repos/RadAd/MiniUtils/releases{/id}",
     "deployments_url": "https://api.github.com/repos/RadAd/MiniUtils/deployments",
     "created_at": "2017-07-28T12:47:46Z",
-    "updated_at": "2022-04-14T00:20:26Z",
+    "updated_at": "2022-06-25T19:07:47Z",
     "pushed_at": "2022-01-31T03:35:48Z",
     "git_url": "git://github.com/RadAd/MiniUtils.git",
     "ssh_url": "git@github.com:RadAd/MiniUtils.git",
@@ -1514,8 +1528,8 @@
     "svn_url": "https://github.com/RadAd/MiniUtils",
     "homepage": "",
     "size": 80,
-    "stargazers_count": 2,
-    "watchers_count": 2,
+    "stargazers_count": 3,
+    "watchers_count": 3,
     "language": "C++",
     "has_issues": true,
     "has_projects": false,
@@ -1530,6 +1544,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "console",
@@ -1539,7 +1554,7 @@
     "visibility": "public",
     "forks": 0,
     "open_issues": 0,
-    "watchers": 2,
+    "watchers": 3,
     "default_branch": "master"
   },
   {
@@ -1633,6 +1648,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "gui",
@@ -1738,6 +1754,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "android"
     ],
@@ -1838,6 +1855,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
 
     ],
@@ -1914,21 +1932,21 @@
     "releases_url": "https://api.github.com/repos/RadAd/RadAd.github.io/releases{/id}",
     "deployments_url": "https://api.github.com/repos/RadAd/RadAd.github.io/deployments",
     "created_at": "2016-07-18T04:20:25Z",
-    "updated_at": "2021-11-18T05:41:35Z",
-    "pushed_at": "2022-06-17T11:37:57Z",
+    "updated_at": "2022-06-17T12:32:01Z",
+    "pushed_at": "2022-06-17T13:26:37Z",
     "git_url": "git://github.com/RadAd/RadAd.github.io.git",
     "ssh_url": "git@github.com:RadAd/RadAd.github.io.git",
     "clone_url": "https://github.com/RadAd/RadAd.github.io.git",
     "svn_url": "https://github.com/RadAd/RadAd.github.io",
     "homepage": "https://RadAd.github.io",
-    "size": 241,
+    "size": 255,
     "stargazers_count": 0,
     "watchers_count": 0,
     "language": "HTML",
-    "has_issues": true,
-    "has_projects": true,
+    "has_issues": false,
+    "has_projects": false,
     "has_downloads": true,
-    "has_wiki": true,
+    "has_wiki": false,
     "has_pages": true,
     "forks_count": 0,
     "mirror_url": null,
@@ -1938,6 +1956,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
 
     ],
@@ -2038,6 +2057,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "library"
     ],
@@ -2138,6 +2158,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "deskband",
       "win32",
@@ -2240,6 +2261,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "gui",
@@ -2345,6 +2367,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "emulator",
       "gameboy",
@@ -2449,6 +2472,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "android-library"
     ],
@@ -2549,6 +2573,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "console",
       "java",
@@ -2651,6 +2676,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "atl",
       "gui",
@@ -2756,6 +2782,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "gui",
@@ -2860,6 +2887,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "gui",
@@ -2964,6 +2992,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "gui",
@@ -3070,6 +3099,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "gui",
       "gui-application",
@@ -3173,6 +3203,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "gui",
@@ -3278,6 +3309,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "deskband",
       "win32",
@@ -3357,13 +3389,13 @@
     "deployments_url": "https://api.github.com/repos/RadAd/RadLine/deployments",
     "created_at": "2019-06-06T01:07:05Z",
     "updated_at": "2021-11-26T01:10:44Z",
-    "pushed_at": "2021-11-26T01:10:41Z",
+    "pushed_at": "2022-07-14T04:11:32Z",
     "git_url": "git://github.com/RadAd/RadLine.git",
     "ssh_url": "git@github.com:RadAd/RadLine.git",
     "clone_url": "https://github.com/RadAd/RadLine.git",
     "svn_url": "https://github.com/RadAd/RadLine",
     "homepage": "https://markdown.is/gh/RadAd/RadLine?branch=master",
-    "size": 447,
+    "size": 464,
     "stargazers_count": 2,
     "watchers_count": 2,
     "language": "C++",
@@ -3380,6 +3412,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "cmd",
@@ -3460,19 +3493,19 @@
     "releases_url": "https://api.github.com/repos/RadAd/RadMeter/releases{/id}",
     "deployments_url": "https://api.github.com/repos/RadAd/RadMeter/deployments",
     "created_at": "2022-05-11T03:12:40Z",
-    "updated_at": "2022-05-11T03:12:49Z",
-    "pushed_at": "2022-05-11T03:26:00Z",
+    "updated_at": "2022-07-14T13:12:31Z",
+    "pushed_at": "2022-07-13T02:35:57Z",
     "git_url": "git://github.com/RadAd/RadMeter.git",
     "ssh_url": "git@github.com:RadAd/RadMeter.git",
     "clone_url": "https://github.com/RadAd/RadMeter.git",
     "svn_url": "https://github.com/RadAd/RadMeter",
-    "homepage": null,
-    "size": 214,
+    "homepage": "",
+    "size": 220,
     "stargazers_count": 0,
     "watchers_count": 0,
     "language": "C",
     "has_issues": true,
-    "has_projects": true,
+    "has_projects": false,
     "has_downloads": true,
     "has_wiki": true,
     "has_pages": false,
@@ -3484,8 +3517,12 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
-
+      "gui",
+      "gui-application",
+      "win32",
+      "windows"
     ],
     "visibility": "public",
     "forks": 0,
@@ -3584,6 +3621,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "android",
       "android-app",
@@ -3663,13 +3701,13 @@
     "deployments_url": "https://api.github.com/repos/RadAd/RadNotepadMFC/deployments",
     "created_at": "2017-08-04T04:00:56Z",
     "updated_at": "2022-06-16T06:24:42Z",
-    "pushed_at": "2022-06-17T05:32:25Z",
+    "pushed_at": "2022-06-20T07:28:36Z",
     "git_url": "git://github.com/RadAd/RadNotepadMFC.git",
     "ssh_url": "git@github.com:RadAd/RadNotepadMFC.git",
     "clone_url": "https://github.com/RadAd/RadNotepadMFC.git",
     "svn_url": "https://github.com/RadAd/RadNotepadMFC",
     "homepage": "https://radad.github.io/RadNotepadMFC/",
-    "size": 1889,
+    "size": 1906,
     "stargazers_count": 7,
     "watchers_count": 7,
     "language": "C++",
@@ -3686,6 +3724,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "gui",
@@ -3792,6 +3831,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "osdev",
       "realmode",
@@ -3895,6 +3935,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "android-library"
     ],
@@ -3995,6 +4036,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "win32",
       "windows"
@@ -4102,6 +4144,7 @@
     },
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "gui",
@@ -4211,6 +4254,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "android"
     ],
@@ -4311,6 +4355,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "visual-studio"
     ],
@@ -4411,6 +4456,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "deskband",
@@ -4514,6 +4560,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "library",
       "win32",
@@ -4616,6 +4663,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "win32",
@@ -4625,6 +4673,110 @@
     "forks": 0,
     "open_issues": 0,
     "watchers": 1,
+    "default_branch": "master"
+  },
+  {
+    "id": 506089145,
+    "node_id": "R_kgDOHipOuQ",
+    "name": "RadWndResizer",
+    "full_name": "RadAd/RadWndResizer",
+    "private": false,
+    "owner": {
+      "login": "RadAd",
+      "id": 2518689,
+      "node_id": "MDQ6VXNlcjI1MTg2ODk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2518689?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RadAd",
+      "html_url": "https://github.com/RadAd",
+      "followers_url": "https://api.github.com/users/RadAd/followers",
+      "following_url": "https://api.github.com/users/RadAd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RadAd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RadAd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RadAd/subscriptions",
+      "organizations_url": "https://api.github.com/users/RadAd/orgs",
+      "repos_url": "https://api.github.com/users/RadAd/repos",
+      "events_url": "https://api.github.com/users/RadAd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RadAd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/RadAd/RadWndResizer",
+    "description": "Easily resize windows into grids",
+    "fork": false,
+    "url": "https://api.github.com/repos/RadAd/RadWndResizer",
+    "forks_url": "https://api.github.com/repos/RadAd/RadWndResizer/forks",
+    "keys_url": "https://api.github.com/repos/RadAd/RadWndResizer/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/RadAd/RadWndResizer/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/RadAd/RadWndResizer/teams",
+    "hooks_url": "https://api.github.com/repos/RadAd/RadWndResizer/hooks",
+    "issue_events_url": "https://api.github.com/repos/RadAd/RadWndResizer/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/RadAd/RadWndResizer/events",
+    "assignees_url": "https://api.github.com/repos/RadAd/RadWndResizer/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/RadAd/RadWndResizer/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/RadAd/RadWndResizer/tags",
+    "blobs_url": "https://api.github.com/repos/RadAd/RadWndResizer/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/RadAd/RadWndResizer/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/RadAd/RadWndResizer/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/RadAd/RadWndResizer/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/RadAd/RadWndResizer/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/RadAd/RadWndResizer/languages",
+    "stargazers_url": "https://api.github.com/repos/RadAd/RadWndResizer/stargazers",
+    "contributors_url": "https://api.github.com/repos/RadAd/RadWndResizer/contributors",
+    "subscribers_url": "https://api.github.com/repos/RadAd/RadWndResizer/subscribers",
+    "subscription_url": "https://api.github.com/repos/RadAd/RadWndResizer/subscription",
+    "commits_url": "https://api.github.com/repos/RadAd/RadWndResizer/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/RadAd/RadWndResizer/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/RadAd/RadWndResizer/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/RadAd/RadWndResizer/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/RadAd/RadWndResizer/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/RadAd/RadWndResizer/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/RadAd/RadWndResizer/merges",
+    "archive_url": "https://api.github.com/repos/RadAd/RadWndResizer/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/RadAd/RadWndResizer/downloads",
+    "issues_url": "https://api.github.com/repos/RadAd/RadWndResizer/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/RadAd/RadWndResizer/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/RadAd/RadWndResizer/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/RadAd/RadWndResizer/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/RadAd/RadWndResizer/labels{/name}",
+    "releases_url": "https://api.github.com/repos/RadAd/RadWndResizer/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/RadAd/RadWndResizer/deployments",
+    "created_at": "2022-06-22T03:51:15Z",
+    "updated_at": "2022-06-22T04:04:49Z",
+    "pushed_at": "2022-06-22T04:10:17Z",
+    "git_url": "git://github.com/RadAd/RadWndResizer.git",
+    "ssh_url": "git@github.com:RadAd/RadWndResizer.git",
+    "clone_url": "https://github.com/RadAd/RadWndResizer.git",
+    "svn_url": "https://github.com/RadAd/RadWndResizer",
+    "homepage": "",
+    "size": 15,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "C",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+      "gui",
+      "gui-application",
+      "win32",
+      "windows"
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
     "default_branch": "master"
   },
   {
@@ -4718,6 +4870,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "windows",
       "wsh"
@@ -4819,6 +4972,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "console",
@@ -4922,6 +5076,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "ray-tracer",
       "ray-tracing",
@@ -5031,6 +5186,7 @@
     },
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "appveyor",
       "rainmeter",
@@ -5133,6 +5289,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "console",
       "win32",
@@ -5235,6 +5392,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "java",
       "java-library"
@@ -5336,6 +5494,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "cpp-library",
       "library"
@@ -5437,6 +5596,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "scoop",
       "scoop-bucket"
@@ -5538,6 +5698,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "java",
       "java-library",
@@ -5640,6 +5801,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": true,
+    "web_commit_signoff_required": false,
     "topics": [
       "template",
       "visual-studio"
@@ -5741,6 +5903,7 @@
     "license": null,
     "allow_forking": true,
     "is_template": false,
+    "web_commit_signoff_required": false,
     "topics": [
       "android"
     ],

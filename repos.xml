@@ -90,6 +90,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>ansi</topic>
       <topic>java</topic>
@@ -193,6 +194,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>android</topic>
     </topics>
@@ -293,6 +295,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>android</topic>
     </topics>
@@ -393,6 +396,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>console</topic>
@@ -496,6 +500,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>autorun</topic>
       <topic>cmd</topic>
@@ -598,6 +603,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>console</topic>
@@ -702,6 +708,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>console</topic>
@@ -807,6 +814,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>console</topic>
@@ -910,6 +918,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>gui</topic>
@@ -1014,6 +1023,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>osdev</topic>
     </topics>
@@ -1120,6 +1130,7 @@
     </license>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
     </topics>
     <visibility>public</visibility>
@@ -1219,6 +1230,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>win32</topic>
       <topic>windows</topic>
@@ -1296,17 +1308,17 @@
     <releases_url>https://api.github.com/repos/RadAd/midnight/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/midnight/deployments</deployments_url>
     <created_at>2022-06-17T08:34:54Z</created_at>
-    <updated_at>2022-06-09T06:39:53Z</updated_at>
-    <pushed_at>2022-03-09T19:17:24Z</pushed_at>
+    <updated_at>2022-06-17T12:41:36Z</updated_at>
+    <pushed_at>2022-06-17T13:21:53Z</pushed_at>
     <git_url>git://github.com/RadAd/midnight.git</git_url>
     <ssh_url>git@github.com:RadAd/midnight.git</ssh_url>
     <clone_url>https://github.com/RadAd/midnight.git</clone_url>
     <svn_url>https://github.com/RadAd/midnight</svn_url>
     <homepage>https://pages-themes.github.io/midnight/</homepage>
-    <size>2717</size>
+    <size>2732</size>
     <stargazers_count>0</stargazers_count>
     <watchers_count>0</watchers_count>
-    <language/>
+    <language>JavaScript</language>
     <has_issues>false</has_issues>
     <has_projects>true</has_projects>
     <has_downloads>false</has_downloads>
@@ -1326,6 +1338,7 @@
     </license>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
     </topics>
     <visibility>public</visibility>
@@ -1425,6 +1438,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>gui</topic>
@@ -1504,7 +1518,7 @@
     <releases_url>https://api.github.com/repos/RadAd/MiniUtils/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/MiniUtils/deployments</deployments_url>
     <created_at>2017-07-28T12:47:46Z</created_at>
-    <updated_at>2022-04-14T00:20:26Z</updated_at>
+    <updated_at>2022-06-25T19:07:47Z</updated_at>
     <pushed_at>2022-01-31T03:35:48Z</pushed_at>
     <git_url>git://github.com/RadAd/MiniUtils.git</git_url>
     <ssh_url>git@github.com:RadAd/MiniUtils.git</ssh_url>
@@ -1512,8 +1526,8 @@
     <svn_url>https://github.com/RadAd/MiniUtils</svn_url>
     <homepage></homepage>
     <size>80</size>
-    <stargazers_count>2</stargazers_count>
-    <watchers_count>2</watchers_count>
+    <stargazers_count>3</stargazers_count>
+    <watchers_count>3</watchers_count>
     <language>C++</language>
     <has_issues>true</has_issues>
     <has_projects>false</has_projects>
@@ -1528,6 +1542,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>console</topic>
@@ -1537,7 +1552,7 @@
     <visibility>public</visibility>
     <forks>0</forks>
     <open_issues>0</open_issues>
-    <watchers>2</watchers>
+    <watchers>3</watchers>
     <default_branch>master</default_branch>
   </repo>
   <repo>
@@ -1631,6 +1646,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>gui</topic>
@@ -1736,6 +1752,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>android</topic>
     </topics>
@@ -1836,6 +1853,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
     </topics>
     <visibility>public</visibility>
@@ -1911,21 +1929,21 @@
     <releases_url>https://api.github.com/repos/RadAd/RadAd.github.io/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadAd.github.io/deployments</deployments_url>
     <created_at>2016-07-18T04:20:25Z</created_at>
-    <updated_at>2021-11-18T05:41:35Z</updated_at>
-    <pushed_at>2022-06-17T11:37:57Z</pushed_at>
+    <updated_at>2022-06-17T12:32:01Z</updated_at>
+    <pushed_at>2022-06-17T13:26:37Z</pushed_at>
     <git_url>git://github.com/RadAd/RadAd.github.io.git</git_url>
     <ssh_url>git@github.com:RadAd/RadAd.github.io.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadAd.github.io.git</clone_url>
     <svn_url>https://github.com/RadAd/RadAd.github.io</svn_url>
     <homepage>https://RadAd.github.io</homepage>
-    <size>241</size>
+    <size>255</size>
     <stargazers_count>0</stargazers_count>
     <watchers_count>0</watchers_count>
     <language>HTML</language>
-    <has_issues>true</has_issues>
-    <has_projects>true</has_projects>
+    <has_issues>false</has_issues>
+    <has_projects>false</has_projects>
     <has_downloads>true</has_downloads>
-    <has_wiki>true</has_wiki>
+    <has_wiki>false</has_wiki>
     <has_pages>true</has_pages>
     <forks_count>0</forks_count>
     <mirror_url/>
@@ -1935,6 +1953,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
     </topics>
     <visibility>public</visibility>
@@ -2034,6 +2053,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>library</topic>
     </topics>
@@ -2134,6 +2154,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>deskband</topic>
       <topic>win32</topic>
@@ -2236,6 +2257,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>gui</topic>
@@ -2341,6 +2363,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>emulator</topic>
       <topic>gameboy</topic>
@@ -2445,6 +2468,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>android-library</topic>
     </topics>
@@ -2545,6 +2569,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>console</topic>
       <topic>java</topic>
@@ -2647,6 +2672,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>atl</topic>
       <topic>gui</topic>
@@ -2752,6 +2778,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>gui</topic>
@@ -2856,6 +2883,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>gui</topic>
@@ -2960,6 +2988,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>gui</topic>
@@ -3066,6 +3095,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>gui</topic>
       <topic>gui-application</topic>
@@ -3169,6 +3199,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>gui</topic>
@@ -3274,6 +3305,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>deskband</topic>
       <topic>win32</topic>
@@ -3353,13 +3385,13 @@
     <deployments_url>https://api.github.com/repos/RadAd/RadLine/deployments</deployments_url>
     <created_at>2019-06-06T01:07:05Z</created_at>
     <updated_at>2021-11-26T01:10:44Z</updated_at>
-    <pushed_at>2021-11-26T01:10:41Z</pushed_at>
+    <pushed_at>2022-07-14T04:11:32Z</pushed_at>
     <git_url>git://github.com/RadAd/RadLine.git</git_url>
     <ssh_url>git@github.com:RadAd/RadLine.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadLine.git</clone_url>
     <svn_url>https://github.com/RadAd/RadLine</svn_url>
     <homepage>https://markdown.is/gh/RadAd/RadLine?branch=master</homepage>
-    <size>447</size>
+    <size>464</size>
     <stargazers_count>2</stargazers_count>
     <watchers_count>2</watchers_count>
     <language>C++</language>
@@ -3376,6 +3408,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>cmd</topic>
@@ -3456,19 +3489,19 @@
     <releases_url>https://api.github.com/repos/RadAd/RadMeter/releases{/id}</releases_url>
     <deployments_url>https://api.github.com/repos/RadAd/RadMeter/deployments</deployments_url>
     <created_at>2022-05-11T03:12:40Z</created_at>
-    <updated_at>2022-05-11T03:12:49Z</updated_at>
-    <pushed_at>2022-05-11T03:26:00Z</pushed_at>
+    <updated_at>2022-07-14T13:12:31Z</updated_at>
+    <pushed_at>2022-07-13T02:35:57Z</pushed_at>
     <git_url>git://github.com/RadAd/RadMeter.git</git_url>
     <ssh_url>git@github.com:RadAd/RadMeter.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadMeter.git</clone_url>
     <svn_url>https://github.com/RadAd/RadMeter</svn_url>
-    <homepage/>
-    <size>214</size>
+    <homepage></homepage>
+    <size>220</size>
     <stargazers_count>0</stargazers_count>
     <watchers_count>0</watchers_count>
     <language>C</language>
     <has_issues>true</has_issues>
-    <has_projects>true</has_projects>
+    <has_projects>false</has_projects>
     <has_downloads>true</has_downloads>
     <has_wiki>true</has_wiki>
     <has_pages>false</has_pages>
@@ -3480,7 +3513,12 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
+      <topic>gui</topic>
+      <topic>gui-application</topic>
+      <topic>win32</topic>
+      <topic>windows</topic>
     </topics>
     <visibility>public</visibility>
     <forks>0</forks>
@@ -3579,6 +3617,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>android</topic>
       <topic>android-app</topic>
@@ -3658,13 +3697,13 @@
     <deployments_url>https://api.github.com/repos/RadAd/RadNotepadMFC/deployments</deployments_url>
     <created_at>2017-08-04T04:00:56Z</created_at>
     <updated_at>2022-06-16T06:24:42Z</updated_at>
-    <pushed_at>2022-06-17T05:32:25Z</pushed_at>
+    <pushed_at>2022-06-20T07:28:36Z</pushed_at>
     <git_url>git://github.com/RadAd/RadNotepadMFC.git</git_url>
     <ssh_url>git@github.com:RadAd/RadNotepadMFC.git</ssh_url>
     <clone_url>https://github.com/RadAd/RadNotepadMFC.git</clone_url>
     <svn_url>https://github.com/RadAd/RadNotepadMFC</svn_url>
     <homepage>https://radad.github.io/RadNotepadMFC/</homepage>
-    <size>1889</size>
+    <size>1906</size>
     <stargazers_count>7</stargazers_count>
     <watchers_count>7</watchers_count>
     <language>C++</language>
@@ -3681,6 +3720,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>gui</topic>
@@ -3787,6 +3827,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>osdev</topic>
       <topic>realmode</topic>
@@ -3890,6 +3931,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>android-library</topic>
     </topics>
@@ -3990,6 +4032,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>win32</topic>
       <topic>windows</topic>
@@ -4097,6 +4140,7 @@
     </license>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>gui</topic>
@@ -4206,6 +4250,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>android</topic>
     </topics>
@@ -4306,6 +4351,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>visual-studio</topic>
     </topics>
@@ -4406,6 +4452,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>deskband</topic>
@@ -4509,6 +4556,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>library</topic>
       <topic>win32</topic>
@@ -4611,6 +4659,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>win32</topic>
@@ -4620,6 +4669,110 @@
     <forks>0</forks>
     <open_issues>0</open_issues>
     <watchers>1</watchers>
+    <default_branch>master</default_branch>
+  </repo>
+  <repo>
+    <id>506089145</id>
+    <node_id>R_kgDOHipOuQ</node_id>
+    <name>RadWndResizer</name>
+    <full_name>RadAd/RadWndResizer</full_name>
+    <private>false</private>
+    <owner>
+      <login>RadAd</login>
+      <id>2518689</id>
+      <node_id>MDQ6VXNlcjI1MTg2ODk=</node_id>
+      <avatar_url>https://avatars.githubusercontent.com/u/2518689?v=4</avatar_url>
+      <gravatar_id></gravatar_id>
+      <url>https://api.github.com/users/RadAd</url>
+      <html_url>https://github.com/RadAd</html_url>
+      <followers_url>https://api.github.com/users/RadAd/followers</followers_url>
+      <following_url>https://api.github.com/users/RadAd/following{/other_user}</following_url>
+      <gists_url>https://api.github.com/users/RadAd/gists{/gist_id}</gists_url>
+      <starred_url>https://api.github.com/users/RadAd/starred{/owner}{/repo}</starred_url>
+      <subscriptions_url>https://api.github.com/users/RadAd/subscriptions</subscriptions_url>
+      <organizations_url>https://api.github.com/users/RadAd/orgs</organizations_url>
+      <repos_url>https://api.github.com/users/RadAd/repos</repos_url>
+      <events_url>https://api.github.com/users/RadAd/events{/privacy}</events_url>
+      <received_events_url>https://api.github.com/users/RadAd/received_events</received_events_url>
+      <type>User</type>
+      <site_admin>false</site_admin>
+    </owner>
+    <html_url>https://github.com/RadAd/RadWndResizer</html_url>
+    <description>Easily resize windows into grids</description>
+    <fork>false</fork>
+    <url>https://api.github.com/repos/RadAd/RadWndResizer</url>
+    <forks_url>https://api.github.com/repos/RadAd/RadWndResizer/forks</forks_url>
+    <keys_url>https://api.github.com/repos/RadAd/RadWndResizer/keys{/key_id}</keys_url>
+    <collaborators_url>https://api.github.com/repos/RadAd/RadWndResizer/collaborators{/collaborator}</collaborators_url>
+    <teams_url>https://api.github.com/repos/RadAd/RadWndResizer/teams</teams_url>
+    <hooks_url>https://api.github.com/repos/RadAd/RadWndResizer/hooks</hooks_url>
+    <issue_events_url>https://api.github.com/repos/RadAd/RadWndResizer/issues/events{/number}</issue_events_url>
+    <events_url>https://api.github.com/repos/RadAd/RadWndResizer/events</events_url>
+    <assignees_url>https://api.github.com/repos/RadAd/RadWndResizer/assignees{/user}</assignees_url>
+    <branches_url>https://api.github.com/repos/RadAd/RadWndResizer/branches{/branch}</branches_url>
+    <tags_url>https://api.github.com/repos/RadAd/RadWndResizer/tags</tags_url>
+    <blobs_url>https://api.github.com/repos/RadAd/RadWndResizer/git/blobs{/sha}</blobs_url>
+    <git_tags_url>https://api.github.com/repos/RadAd/RadWndResizer/git/tags{/sha}</git_tags_url>
+    <git_refs_url>https://api.github.com/repos/RadAd/RadWndResizer/git/refs{/sha}</git_refs_url>
+    <trees_url>https://api.github.com/repos/RadAd/RadWndResizer/git/trees{/sha}</trees_url>
+    <statuses_url>https://api.github.com/repos/RadAd/RadWndResizer/statuses/{sha}</statuses_url>
+    <languages_url>https://api.github.com/repos/RadAd/RadWndResizer/languages</languages_url>
+    <stargazers_url>https://api.github.com/repos/RadAd/RadWndResizer/stargazers</stargazers_url>
+    <contributors_url>https://api.github.com/repos/RadAd/RadWndResizer/contributors</contributors_url>
+    <subscribers_url>https://api.github.com/repos/RadAd/RadWndResizer/subscribers</subscribers_url>
+    <subscription_url>https://api.github.com/repos/RadAd/RadWndResizer/subscription</subscription_url>
+    <commits_url>https://api.github.com/repos/RadAd/RadWndResizer/commits{/sha}</commits_url>
+    <git_commits_url>https://api.github.com/repos/RadAd/RadWndResizer/git/commits{/sha}</git_commits_url>
+    <comments_url>https://api.github.com/repos/RadAd/RadWndResizer/comments{/number}</comments_url>
+    <issue_comment_url>https://api.github.com/repos/RadAd/RadWndResizer/issues/comments{/number}</issue_comment_url>
+    <contents_url>https://api.github.com/repos/RadAd/RadWndResizer/contents/{+path}</contents_url>
+    <compare_url>https://api.github.com/repos/RadAd/RadWndResizer/compare/{base}...{head}</compare_url>
+    <merges_url>https://api.github.com/repos/RadAd/RadWndResizer/merges</merges_url>
+    <archive_url>https://api.github.com/repos/RadAd/RadWndResizer/{archive_format}{/ref}</archive_url>
+    <downloads_url>https://api.github.com/repos/RadAd/RadWndResizer/downloads</downloads_url>
+    <issues_url>https://api.github.com/repos/RadAd/RadWndResizer/issues{/number}</issues_url>
+    <pulls_url>https://api.github.com/repos/RadAd/RadWndResizer/pulls{/number}</pulls_url>
+    <milestones_url>https://api.github.com/repos/RadAd/RadWndResizer/milestones{/number}</milestones_url>
+    <notifications_url>https://api.github.com/repos/RadAd/RadWndResizer/notifications{?since,all,participating}</notifications_url>
+    <labels_url>https://api.github.com/repos/RadAd/RadWndResizer/labels{/name}</labels_url>
+    <releases_url>https://api.github.com/repos/RadAd/RadWndResizer/releases{/id}</releases_url>
+    <deployments_url>https://api.github.com/repos/RadAd/RadWndResizer/deployments</deployments_url>
+    <created_at>2022-06-22T03:51:15Z</created_at>
+    <updated_at>2022-06-22T04:04:49Z</updated_at>
+    <pushed_at>2022-06-22T04:10:17Z</pushed_at>
+    <git_url>git://github.com/RadAd/RadWndResizer.git</git_url>
+    <ssh_url>git@github.com:RadAd/RadWndResizer.git</ssh_url>
+    <clone_url>https://github.com/RadAd/RadWndResizer.git</clone_url>
+    <svn_url>https://github.com/RadAd/RadWndResizer</svn_url>
+    <homepage></homepage>
+    <size>15</size>
+    <stargazers_count>0</stargazers_count>
+    <watchers_count>0</watchers_count>
+    <language>C</language>
+    <has_issues>true</has_issues>
+    <has_projects>true</has_projects>
+    <has_downloads>true</has_downloads>
+    <has_wiki>true</has_wiki>
+    <has_pages>false</has_pages>
+    <forks_count>0</forks_count>
+    <mirror_url/>
+    <archived>false</archived>
+    <disabled>false</disabled>
+    <open_issues_count>0</open_issues_count>
+    <license/>
+    <allow_forking>true</allow_forking>
+    <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
+    <topics>
+      <topic>gui</topic>
+      <topic>gui-application</topic>
+      <topic>win32</topic>
+      <topic>windows</topic>
+    </topics>
+    <visibility>public</visibility>
+    <forks>0</forks>
+    <open_issues>0</open_issues>
+    <watchers>0</watchers>
     <default_branch>master</default_branch>
   </repo>
   <repo>
@@ -4713,6 +4866,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>windows</topic>
       <topic>wsh</topic>
@@ -4814,6 +4968,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>console</topic>
@@ -4917,6 +5072,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>ray-tracer</topic>
       <topic>ray-tracing</topic>
@@ -5026,6 +5182,7 @@
     </license>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>appveyor</topic>
       <topic>rainmeter</topic>
@@ -5128,6 +5285,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>console</topic>
       <topic>win32</topic>
@@ -5230,6 +5388,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>java</topic>
       <topic>java-library</topic>
@@ -5331,6 +5490,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>cpp-library</topic>
       <topic>library</topic>
@@ -5432,6 +5592,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>scoop</topic>
       <topic>scoop-bucket</topic>
@@ -5533,6 +5694,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>java</topic>
       <topic>java-library</topic>
@@ -5635,6 +5797,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>true</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>template</topic>
       <topic>visual-studio</topic>
@@ -5736,6 +5899,7 @@
     <license/>
     <allow_forking>true</allow_forking>
     <is_template>false</is_template>
+    <web_commit_signoff_required>false</web_commit_signoff_required>
     <topics>
       <topic>android</topic>
     </topics>

@@ -7,7 +7,7 @@ icons:
 {{ page.icons["RadMeter"] }}
 
 {% for repository in site.github.public_repositories -%}
-{{ page.icons[{{ repository.name }}] }}
+{{ page.icons[repository.name] }}
 {{ repository }}
 
 {% endfor %}

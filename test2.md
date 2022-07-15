@@ -1,12 +1,13 @@
 ---
 icons:
-  RadMeter: "test"
-  RadGui: "test"
+  RadGui: "RadGui.ico"
+  RadMeter: "RadMeter.ico"
 ---
-{{ page.icons.RadNotepadMFC }}
-{{ page.icons.RadMeter }}
+{{ page.icons["RadNotepadMFC"] }}
+{{ page.icons["RadMeter"] }}
 
 {% for repository in site.github.public_repositories -%}
+{{ page.icons[{{ repository.name }}] }}
 {{ repository }}
 
 {% endfor %}

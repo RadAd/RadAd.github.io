@@ -23,12 +23,14 @@
         <Repo name="RadJoyKey" icon="RadJoyKey.ico"/>
         <Repo name="RadJoyKeyX" icon="RadJoyKeyX.ico"/>
         <Repo name="RadKeyLockDB" releases="false"/>
+        <Repo name="RadMeter" icon="RadMeter.ico" releases="false"/>
         <Repo name="RadNotepadMFC" icon="res/RadNotepad.ico"/>
         <Repo name="RadNotepad" icon="res/drawable/ic_launcher.png"/>
         <Repo name="RadTabs" icon="RadTabsB.ico"/>
         <Repo name="RadTerminal" icon="RadTerminal.ico"/>
         <Repo name="Rainbow" icon="rainbow.ico"/>
         <Repo name="RadUnread" icon="res/drawable/icon.png"/>
+        <Repo name="RadWndResizer" releases="false"/>
         <Repo name="Shortcut" releases="false"/>
         <Repo name="SyntaxHighlighter" releases="false"/>
         <Repo name="TextUI" releases="false"/>

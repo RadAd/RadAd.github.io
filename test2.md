@@ -1,6 +1,7 @@
 ---
 icons:
   RadMeter: "test"
+  RadGui: "test"
 ---
 {{ icon.RadNotepadMFC }}
 {{ icon.RadMeter }}

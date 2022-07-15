@@ -1,5 +1,5 @@
 ---
-no_release: [ "RadFloatDB", "MiniUtils", "Shortcut", "RadAudioMeterDB", "RadKeyLockDB", "Radboy", "SyntaxHighlighter", "TextUI" ]
+no_release: [ "RadFloatDB", "RadMeter", "RadWndResizer", "MiniUtils", "Shortcut", "RadAudioMeterDB", "RadKeyLockDB", "Radboy", "SyntaxHighlighter", "TextUI" ]
 downloads_img: "![downloads](https://img.shields.io/github/downloads/[repo]/total.svg?maxAge=2592000&label=)"
 release_img: "[![release](https://img.shields.io/github/release/[repo].svg?maxAge=2592000&label=)](https://github.com/[repo]/releases/latest)"
 commits_img: "[![commits-since](https://img.shields.io/github/commits-since/[repo]/latest.svg?maxAge=2592000&label=)](https://github.com/[repo]/commits/master)"

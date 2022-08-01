@@ -1,4 +1,5 @@
 ---
+title: Projects
 no_release: [ "RadFloatDB", "RadMeter", "RadWndResizer", "MiniUtils", "Shortcut", "RadAudioMeterDB", "RadKeyLockDB", "Radboy", "SyntaxHighlighter", "TextUI" ]
 icons:
     AppDrawer: "res/drawable/app_drawer_icon.png"

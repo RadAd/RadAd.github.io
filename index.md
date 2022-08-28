@@ -46,7 +46,7 @@ none_img: "![](https://img.shields.io/badge/----red.svg)"
 
 ## [Windows Console](https://github.com/RadAd?tab=repositories&q=%23windows+%23console)
 {% assign repositories = site.github.public_repositories %}
-{% assign repositories = repositories | where_exp: "repository", "not repository.archived" %}
+{% assign repositories = repositories | where_exp: "repository", "! repository.archived" %}
 {% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'windows'" %}
 {% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'console'" %}
 {% for repository in repositories -%}

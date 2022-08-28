@@ -34,6 +34,7 @@ none_img: "![](https://img.shields.io/badge/----red.svg)"
 ---
 ## [Windows GUI](https://github.com/RadAd?tab=repositories&q=%23windows+%23gui)
 {% assign repositories = site.github.public_repositories %}
+{% assign repositories = repositories | where_exp: "repository", "repository.archived == false" %}
 {% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'windows'" %}
 {% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'gui'" %}
 {% for repository in repositories -%}
@@ -59,6 +60,7 @@ none_img: "![](https://img.shields.io/badge/----red.svg)"
 
 ## [Windows Deskband](https://github.com/RadAd?tab=repositories&q=%23windows+%23deskband)
 {% assign repositories = site.github.public_repositories %}
+{% assign repositories = repositories | where_exp: "repository", "repository.archived == false" %}
 {% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'windows'" %}
 {% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'deskband'" %}
 {% for repository in repositories -%}

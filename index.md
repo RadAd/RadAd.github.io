@@ -39,9 +39,9 @@ none_img: "![](https://img.shields.io/badge/----red.svg)"
 {% assign repositories = repositories | where_exp: "repository", "repository.topics contains 'gui'" %}
 {% for repository in repositories -%}
 {% if page.no_release contains repository.name -%}
-| [<img src="{{ repository.html_url }}/raw/master/{{ page.icons[repository.name] }}" width="16" />{{ repository.name }}]({{ repository.html_url }}) | {{ page.none_img }} | {{ page.none_img }} | {{ page.none_img }} | {% if repository.topics contains 'appveyor' %}{{ page.appveyor_img | replace: "[repo]", repository.full_name }}{% endif %} | {{ repository.description }} |
+| [<img src="{{ repository.html_url }}/raw/master/{{ page.icons[repository.name] }}" width="16" onerror='this.src="github-11-16.png"' />{{ repository.name }}]({{ repository.html_url }}) | {{ page.none_img }} | {{ page.none_img }} | {{ page.none_img }} | {% if repository.topics contains 'appveyor' %}{{ page.appveyor_img | replace: "[repo]", repository.full_name }}{% endif %} | {{ repository.description }} |
 {% else -%}
-| [<img src="{{ repository.html_url }}/raw/master/{{ page.icons[repository.name] }}" width="16" />{{ repository.name }}]({{ repository.html_url }}) | {{ page.downloads_img | replace: "[repo]", repository.full_name }} | {{ page.release_img | replace: "[repo]", repository.full_name }} | {{ page.commits_img | replace: "[repo]", repository.full_name }} | {% if repository.topics contains 'appveyor' %}{{ page.appveyor_img | replace: "[repo]", repository.full_name }}{% endif %} | {{ repository.description }} |
+| [<img src="{{ repository.html_url }}/raw/master/{{ page.icons[repository.name] }}" width="16" onerror='this.src="github-11-16.png"' />{{ repository.name }}]({{ repository.html_url }}) | {{ page.downloads_img | replace: "[repo]", repository.full_name }} | {{ page.release_img | replace: "[repo]", repository.full_name }} | {{ page.commits_img | replace: "[repo]", repository.full_name }} | {% if repository.topics contains 'appveyor' %}{{ page.appveyor_img | replace: "[repo]", repository.full_name }}{% endif %} | {{ repository.description }} |
 {% endif -%}
 {% endfor %}
 

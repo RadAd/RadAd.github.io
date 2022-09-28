@@ -23,6 +23,7 @@ icons:
     RadNotepad: "res/drawable/ic_launcher.png"
     RadTabs: "RadTabsB.ico"
     RadTerminal: "RadTerminal.ico"
+    RadWndResizer: "res/RadWndResizer.ico"
     Rainbow: "rainbow.ico"
     RadUnread: "res/drawable/icon.png"
     WebIntents: "res/drawable/web_intents_icon.png"

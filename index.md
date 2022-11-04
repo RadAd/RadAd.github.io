@@ -6,7 +6,7 @@ icons:
     Clock: "res/drawable/clock.png"
     ConEdit: "ConEdit.ico"
     DesktopsMenu: "res/main.ico"
-    DbgOut: "bug.ico"
+    DbgOut: "res/bug-white.png"
     MiniExplorer: "res/MiniExplorer.ico"
     Notepad: "Notepad.ico"
     OpenAsText: "res/drawable/text.png"

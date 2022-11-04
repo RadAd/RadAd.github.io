@@ -12,6 +12,7 @@ icons:
     OpenAsText: "res/drawable/text.png"
     RadAudioPlayer: "res/Music.ico"
     Radboy: "res/game-boy-icon-53-32x32.png"
+    RadHotCorner: "res/RadHotCorner-White.ico"
     RadImgViewer: "RadImgViewer/res/imgviewer.ico"
     RadImgViewer2: "res/imgviewer.ico"
     RadFloatDB: "RadFloatDB/RadFloatDB.ico"

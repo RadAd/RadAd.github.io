@@ -1,6 +1,6 @@
 ---
 title: Projects
-no_release: [ "RadAppBar", "RadAudioMeterDB", "RadKeyLockDB", "Radboy", "SyntaxHighlighter", "TextUI" ]
+no_release: [ "RadAppBar", "RadAudioMeterDB", "RadKeyLockDB", "Radboy", "SyntaxHighlighter", "TextUI", "RadWinKill", "RadDbg" ]
 icons:
     AppDrawer: "res/drawable/app_drawer_icon.png"
     Clock: "res/drawable/clock.png"

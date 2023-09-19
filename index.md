@@ -5,6 +5,7 @@ icons:
     AppDrawer: "res/drawable/app_drawer_icon.png"
     Clock: "res/drawable/clock.png"
     ConEdit: "ConEdit.ico"
+    CmdStartup: "CmdStartup.ico"
     DesktopsMenu: "res/main.ico"
     DbgOut: "res/bug-white.png"
     MiniExplorer: "res/MiniExplorer.ico"

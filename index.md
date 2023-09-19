@@ -1,6 +1,6 @@
 ---
 title: Projects
-no_release: [ "RadAppBar", "RadAudioMeterDB", "RadKeyLockDB", "Radboy", "SyntaxHighlighter", "TextUI", "RadDbg" ]
+no_release: [ "RadAppBar", "RadAudioMeterDB", "RadKeyLockDB", "Radboy", "RadTabs", "SyntaxHighlighter", "TextUI", "RadDbg" ]
 icons:
     AppDrawer: "res/drawable/app_drawer_icon.png"
     Clock: "res/drawable/clock.png"
@@ -12,6 +12,7 @@ icons:
     OpenAsText: "res/drawable/text.png"
     RadAudioPlayer: "res/Music.ico"
     Radboy: "res/game-boy-icon-53-32x32.png"
+    RadBuildStatus: "res/RadBuildStatus.ico"
     RadHotCorner: "res/RadHotCorner-White.ico"
     RadImgViewer: "RadImgViewer/res/imgviewer.ico"
     RadImgViewer2: "res/imgviewer.ico"
@@ -22,6 +23,7 @@ icons:
     RadMeter: "RadMeter.ico"
     RadNotepadMFC: "res/RadNotepad.ico"
     RadNotepad: "res/drawable/ic_launcher.png"
+    RadSwitch: "res/RadSwitch.ico"
     RadTabs: "RadTabsB.ico"
     RadTerminal: "RadTerminal.ico"
     RadWinKill: "RadWinKill.ico"

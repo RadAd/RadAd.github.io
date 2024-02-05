@@ -23,6 +23,7 @@ icons:
     RadGui: "RadGui.ico"
     RadJoyKey: "RadJoyKey.ico"
     RadJoyKeyX: "RadJoyKeyX.ico"
+    RadLauncher: "res/RadLaunch.ico"
     RadMeter: "RadMeter.ico"
     RadNotepadMFC: "res/RadNotepad.ico"
     RadNotepad: "res/drawable/ic_launcher.png"

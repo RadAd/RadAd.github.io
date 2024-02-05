@@ -3,6 +3,7 @@ title: Projects
 no_release: [ "RadAppBar", "RadAudioMeterDB", "RadKeyLockDB", "Radboy", "RadTabs", "SyntaxHighlighter", "TextUI", "RadDbg", "IcoUtils", "RadLauncher" ]
 branch:
     CmdStartup: "main"
+    RadLauncher: "main"
 icons:
     AppDrawer: "res/drawable/app_drawer_icon.png"
     Clock: "res/drawable/clock.png"

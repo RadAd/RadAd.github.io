@@ -1,6 +1,6 @@
 ---
 title: Projects
-no_release: [ "RadAppBar", "RadAudioMeterDB", "RadKeyLockDB", "Radboy", "RadTabs", "SyntaxHighlighter", "TextUI", "RadDbg", "IcoUtils", "RadLauncher" ]
+no_release: [ "IcoUtils", "RadAppBar", "RadAudioMeterDB", "Radboy", "RadDbg", "RadKeyLockDB", "RadLauncher", "RadReadConsole", "RadTabs", "SyntaxHighlighter", "TextUI" ]
 branch:
     CmdStartup: "main"
     RadLauncher: "main"

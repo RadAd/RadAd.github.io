@@ -1,10 +1,10 @@
-# Email validation and the `+` character
+# Email validation and the '+' character
 
-Why do so many websites not allow you to use the `+` character in your email
+Why do so many websites not allow you to use the '+' character in your email
 address?
 
-For those of you who don't know, many email servers allow the use of a `+` in
-your email address. Everything between the `+` and `@` is ignored. For example,
+For those of you who don't know, many email servers allow the use of a '+' in
+your email address. Everything between the '+' and `@` is ignored. For example,
 if your email address is `joe@gmail.com`, then you can use `joe+spam@gmail.com`
 and it will still reach your inbox. I find this feature very useful to
 determine where spam has come from.

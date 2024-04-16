@@ -29,7 +29,7 @@ icons:
     RadNotepadMFC: "res/RadNotepad.ico"
     RadNotepad: "res/drawable/ic_launcher.png"
     RadSwitch: "res/RadSwitch.ico"
-    RadTabs: "RadTabsB.ico"
+    RadTabs: "RadTabsW.ico"
     RadTerminal: "RadTerminal.ico"
     RadWinKill: "RadWinKill.ico"
     RadWndResizer: "res/RadWndResizer.ico"

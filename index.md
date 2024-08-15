@@ -1,6 +1,6 @@
 ---
 title: Projects
-no_release: [ "IcoUtils", "RadAppBar", "RadAudioMeterDB", "Radboy", "RadDbg", "RadKeyLockDB", "RadLauncher", "RadMenu", "RadReadConsole", "RadTabs", "SyntaxHighlighter", "TextUI" ]
+no_release: [ "IcoUtils", "JsonViewer", "RadAppBar", "RadAudioMeterDB", "Radboy", "RadDbg", "RadKeyLockDB", "RadLauncher", "RadMenu", "RadReadConsole", "RadTabs", "SyntaxHighlighter", "TextUI" ]
 branch:
     CmdStartup: "main"
     RadLauncher: "main"
@@ -11,6 +11,7 @@ icons:
     CmdStartup: "CmdStartup.ico"
     DesktopsMenu: "res/main.ico"
     DbgOut: "res/bug-white.png"
+    JsonViewer: "Res/JsonViewer.ico"
     MiniExplorer: "res/MiniExplorer.ico"
     Notepad: "Notepad.ico"
     OpenAsText: "res/drawable/text.png"

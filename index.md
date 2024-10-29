@@ -11,7 +11,7 @@ icons:
     CmdStartup: "CmdStartup.ico"
     DesktopsMenu: "res/main.ico"
     DbgOut: "res/bug-white.png"
-    JsonViewer: "Res/JsonViewer.ico"
+    JsonViewer: "Res/JsonViewerW.ico"
     MiniExplorer: "res/MiniExplorer.ico"
     Notepad: "Notepad.ico"
     OpenAsText: "res/drawable/text.png"

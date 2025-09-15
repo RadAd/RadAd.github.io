@@ -13,7 +13,7 @@ icons:
     DbgOut: "res/bug-white.png"
     JsonViewer: "Res/JsonViewerW.ico"
     MiniExplorer: "res/MiniExplorer.ico"
-    MultiPad: "res/Multipad.ico"
+    MultiPad: "res/MultiPad.ico"
     Notepad: "Notepad.ico"
     OpenAsText: "res/drawable/text.png"
     RadAudioPlayer: "res/Music.ico"

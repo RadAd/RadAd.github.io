@@ -1,6 +1,6 @@
 ---
 title: Projects
-no_release: [ "IcoUtils", "MultiPad", "RadAppBar", "RadAudioMeterDB", "Radboy", "RadDbg", "RadKeyLockDB", "RadLauncher", "RadMenuLauncher", "RadReadConsole", "RadTabs", "SyntaxHighlighter", "TextUI" ]
+no_release: [ "CodePageConvert", "IcoUtils", "MultiPad", "RadAppBar", "RadAudioMeterDB", "Radboy", "RadDbg", "RadKeyLockDB", "RadLauncher", "RadMenuLauncher", "RadReadConsole", "RadTabs", "SyntaxHighlighter", "TextUI" ]
 branch:
     CmdStartup: "main"
     RadLauncher: "main"

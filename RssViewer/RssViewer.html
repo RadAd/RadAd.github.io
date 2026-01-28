@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <meta http-equiv="x-ua-compatible" content="ie=9" />
+	<head>
+    <title>RSS Viewer</title>
+    <!-- <link rel="stylesheet" href="RssViewer.css"> -->
+    <link rel="stylesheet" href="RssViewerDark.css">
+    <base href="https://example.com/">
+    <HTA:APPLICATION 
+      ID=”objHTA”
+      APPLICATIONNAME=”RSS Viewer”
+      ICON="RssViewer.ico"
+    >
+	</head>
+	<body>
+		<script type="text/javascript">
+      function test_not_empty(word) {
+        return word.length > 0;
+      }
+      var rssurl = null;
+      if (rssurl == null) {
+        rssurl = window.prompt("RSS Url:", "https://github.com/RadAd.atom")
+      }
+      
+      {
+        //var base = document.createElement('base');
+        //base.href = "https://github.com/"
+        //document.write("<base href='" + "https://github.com/" + "' />");
+        document.getElementsByTagName('base')[0].href = rssurl.substr(0, rssurl.lastIndexOf('/'));
+        //document.getElementById('favicon')[0].href = 'https://www.rainmeter.net/favicon.ico';
+        //var link = document.createElement('link')
+        //link.id = 'favicon';
+        //link.type = 'image/x-icon'
+        //link.rel = 'icon';
+        //link.href = 'https://www.rainmeter.net/favicon.ico';
+        //document.head.appendChild(link);
+      }
+		
+      function openURL(url) {
+          var shell = new ActiveXObject("WScript.Shell");
+          shell.run(url);
+      }
+      function httpGet(theUrl) {
+        try {
+            var xmlHttp = null;
+            xmlHttp = new XMLHttpRequest();
+            //xmlHttp = new window.ActiveXObject("Microsoft.XMLHTTP")
+            //xmlHttp = new window.ActiveXObject("MSXML2.XMLHTTP.6.0")
+            xmlHttp.open("GET", theUrl, false);
+            xmlHttp.send();
+            return xmlHttp.responseText;
+        } catch (error) {
+            alert(error);
+        }
+      }
+      function toXml(text) {
+        //var parser = new DOMParser();
+        var parser = new window.ActiveXObject("Microsoft.XMLDOM");
+        parser.async = false
+        parser.loadXML(text);
+        return parser;
+      }
+      function getText(xml, tag) {
+        var e = xml.getElementsByTagName(tag)[0]
+        if (e == null) {
+            return "";
+        }
+        else {
+            return e.text;
+        }
+      }
+      function getAttribute(xml, tag, attribute) {
+        return xml.getElementsByTagName(tag)[0].getAttribute(attribute);
+      }
+      function loadrss(){
+        var rssFeedData = toXml(httpGet(rssurl));
+
+        var i=0;
+        var mydiv = document.getElementById('myDiv');
+        
+        {
+          var link = getAttribute(rssFeedData, "link", "href");
+          if (link == null) {
+            link = getText(rssFeedData, "link");
+          }
+          var title = getText(rssFeedData, "title");
+          document.title = title + " - " + document.title;
+          mydiv.innerHTML = "<h1 class='main_title link' onclick='openURL(" + '"' + link + '"' + ")'>" + title + "</h1>";
+        }
+        
+        var entries = rssFeedData.getElementsByTagName("entry");
+        for (i = 0; i < entries.length; i++)
+        {
+          var e = entries[i];
+          var link = getAttribute(e, "link", "href");
+          var newHtml = "";
+          newHtml += "<div class='entry'>";
+          newHtml += "<h2 class='title link' onclick='openURL(" + '"' + link + '"' + ")'>" + getText(e, "title") + "</h2>";
+          var p = getText(e, "published");
+          //p = p.replace("-", "/");
+          //p = p.replace("-", "/");
+          //p = p.replace("T", " ");
+          var published = new Date(p)
+          newHtml += "<h4 class='date'>" + published.toLocaleString() + "</h4>";
+          newHtml += "<div class='text'>" + getText(e, "content") + "</div>";
+          newHtml += "</div>";
+          mydiv.innerHTML += newHtml;
+        }
+        
+        var tiems = rssFeedData.getElementsByTagName("item");
+        for (i = 0; i < tiems.length; i++)
+        {
+          var e = tiems[i];
+          var link = getText(e, "link");
+          var newHtml = "";
+          newHtml += "<div class='entry'>";
+          newHtml += "<h2 class='title link' onclick='openURL(" + '"' + link + '"' + ")'>" + getText(e, "title") + "</h2>";
+          var p = getText(e, "pubDate");
+          var published = new Date(p)
+          newHtml += "<h4 class='date'>" + published.toLocaleString() + "</h4>";
+          newHtml += "<div class='text'>" + getText(e, "description") + "<div>";
+          newHtml += "</div>";
+          mydiv.innerHTML += newHtml;
+        }
+      }
+		</script>
+		<div id="myDiv"></div>
+		<script type="text/javascript">
+      loadrss();
+		</script>
+	</body>
+</html>

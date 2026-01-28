@@ -1,0 +1,38 @@
+body {
+  font-size: 100%;
+  font-family: "wf_SegoeUI","Tahoma","Verdana","Arial","sans-serif";
+  font-weight: normal;
+  color: #403d39;
+  background-color: #000000;
+}
+.main_title {
+  margin: 0px;
+}
+.entry {
+  margin: 5px 0px;
+  padding: 5px;
+  border: 2px solid #d5e1df;
+  border-radius: 10px;
+}
+.title {
+  margin: 0px;
+  color: #403d39;
+}
+.link {
+  color: #fffcf2;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.date {
+  margin: 0px;
+  color: #fffcf2;
+}
+.text {
+  margin: 5px 0px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

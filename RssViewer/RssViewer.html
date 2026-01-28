@@ -98,16 +98,17 @@
           //p = p.replace("-", "/");
           //p = p.replace("T", " ");
           var published = new Date(p)
-          newHtml += "<h4 class='date'>" + published.toLocaleString() + "</h4>";
+          var dateText = isNaN(published.getTime()) ? p : published.toLocaleString();
+          newHtml += "<h4 class='date'>" + dateText + "</h4>";
           newHtml += "<div class='text'>" + getText(e, "content") + "</div>";
           newHtml += "</div>";
           mydiv.innerHTML += newHtml;
         }
 
-        var tiems = rssFeedData.getElementsByTagName("item");
-        for (i = 0; i < tiems.length; i++)
+        var items = rssFeedData.getElementsByTagName("item");
+        for (i = 0; i < items.length; i++)
         {
-          var e = tiems[i];
+          var e = items[i];
           var link = getText(e, "link");
           var newHtml = "";
           newHtml += "<div class='entry'>";
@@ -115,7 +116,7 @@
           var p = getText(e, "pubDate");
           var published = new Date(p)
           newHtml += "<h4 class='date'>" + published.toLocaleString() + "</h4>";
-          newHtml += "<div class='text'>" + getText(e, "description") + "<div>";
+          newHtml += "<div class='text'>" + getText(e, "description") + "</div>";
           newHtml += "</div>";
           mydiv.innerHTML += newHtml;
         }

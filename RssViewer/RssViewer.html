@@ -16,12 +16,14 @@
       if (rssurl == null) {
         rssurl = window.prompt("RSS Url:", "https://github.com/RadAd.atom")
       }
-      
+
       {
         //var base = document.createElement('base');
         //base.href = "https://github.com/"
         //document.write("<base href='" + "https://github.com/" + "' />");
-        document.getElementsByTagName('base')[0].href = rssurl.substr(0, rssurl.lastIndexOf('/'));
+        var idx = rssurl.lastIndexOf('/');
+        var baseHref = (idx >= 0) ? rssurl.substring(0, idx + 1) : rssurl;
+        document.getElementsByTagName('base')[0].href = baseHref;
         //document.getElementById('favicon')[0].href = 'https://www.rainmeter.net/favicon.ico';
         //var link = document.createElement('link')
         //link.id = 'favicon';
@@ -30,10 +32,9 @@
         //link.href = 'https://www.rainmeter.net/favicon.ico';
         //document.head.appendChild(link);
       }
-		
+
       function openURL(url) {
-          var shell = new ActiveXObject("WScript.Shell");
-          shell.run(url);
+        window.open(url, "_blank");
       }
       function httpGet(theUrl) {
         try {
@@ -60,22 +61,20 @@
       }
       function getText(xml, tag) {
         var e = xml.getElementsByTagName(tag)[0]
-        if (e == null) {
-            return "";
-        }
-        else {
-            return e.text;
-        }
+        if (!e) return "";
+        // Prefer textContent, fall back to .text for MSXML
+        return (e.textContent !== undefined) ? e.textContent : e.text;
       }
       function getAttribute(xml, tag, attribute) {
-        return xml.getElementsByTagName(tag)[0].getAttribute(attribute);
+        var el = xml.getElementsByTagName(tag)[0];
+        return el ? el.getAttribute(attribute) : null;
       }
       function loadrss(){
         var rssFeedData = toXml(httpGet(rssurl));
 
         var i=0;
         var mydiv = document.getElementById('myDiv');
-        
+
         {
           var link = getAttribute(rssFeedData, "link", "href");
           if (link == null) {
@@ -85,7 +84,7 @@
           document.title = title + " - " + document.title;
           mydiv.innerHTML = "<h1 class='main_title link' onclick='openURL(" + '"' + link + '"' + ")'>" + title + "</h1>";
         }
-        
+
         var entries = rssFeedData.getElementsByTagName("entry");
         for (i = 0; i < entries.length; i++)
         {
@@ -104,7 +103,7 @@
           newHtml += "</div>";
           mydiv.innerHTML += newHtml;
         }
-        
+
         var tiems = rssFeedData.getElementsByTagName("item");
         for (i = 0; i < tiems.length; i++)
         {

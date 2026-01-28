@@ -1,36 +1,13 @@
-body {
-  font-size: 100%;
-  font-family: "wf_SegoeUI","Tahoma","Verdana","Arial","sans-serif";
-  font-weight: normal;
-  color: #403d39;
-  background-color: #000000;
-}
-.main_title {
-  margin: 0px;
-}
-.entry {
-  margin: 5px 0px;
-  padding: 5px;
-  border: 2px solid #d5e1df;
-  border-radius: 10px;
-}
-.title {
-  margin: 0px;
-  color: #403d39;
-}
-.link {
-  color: #fffcf2;
-}
-.link:hover {
-  text-decoration: underline;
-}
-.date {
-  margin: 0px;
-  color: #fffcf2;
-}
-.text {
-  margin: 5px 0px;
-}
+body { font-family: Arial, Helvetica, sans-serif; margin: 1rem; background: #0b0b0b; color: #eaeaea; }
+#feed-header { margin-bottom: 1rem; }
+#feed-title { margin: 0 0 0.5rem 0; font-size: 1.6rem; cursor: default; }
+#entries { display:block; gap: 1rem; }
+.entry { border-bottom: 1px solid rgba(255,255,255,0.06); padding: 0.8rem 0; }
+.entry-title { margin: 0; color: #9ad; cursor: pointer; }
+.entry-meta { color: #99a; font-size: 0.85rem; margin: 0.25rem 0; }
+.entry-content { margin-top: 0.5rem; color: #ddd; }
+.small { font-size: 0.8rem; color: #888; }
+
 img {
   max-width: 100%;
   height: auto;

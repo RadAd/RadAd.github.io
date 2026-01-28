@@ -49,11 +49,14 @@
         }
       }
       function toXml(text) {
-        //var parser = new DOMParser();
-        var parser = new window.ActiveXObject("Microsoft.XMLDOM");
-        parser.async = false
-        parser.loadXML(text);
-        return parser;
+        if (window.DOMParser) {
+            return new DOMParser().parseFromString(text, "application/xml");
+        } else {
+            var parser = new ActiveXObject("Microsoft.XMLDOM");
+            parser.async = false;
+            parser.loadXML(text);
+            return parser;
+        }
       }
       function getText(xml, tag) {
         var e = xml.getElementsByTagName(tag)[0]
